@@ -4,3 +4,7 @@
 | Elements are immutable | 19-Oct-2021 | Elements can change after "minting" | [Tech Team Meeting 19 Oct 2021](https://github.com/spdx/meetings/blob/master/tech/2021-10-19.md)
 | SPDX-3.0-Model is a new repo | 12-Oct-2021 | Add 3.0 to existing repo | [Tech Team Meeting 12 Oct 2021](https://github.com/spdx/meetings/blob/master/tech/2021-10-12.md)
 | DCO for contributions | 12-Oct-2021 | Individual copyrights | [Tech Team Meeting 12 Oct 2021](https://github.com/spdx/meetings/blob/master/tech/2021-10-12.md)
+| Logical model uses byte array for hash values | 4-Jan-2022 | various | [Punch list hash](https://github.com/spdx/spdx-3-model/issues/8#issuecomment-1005045081)
+| Serialization model defines how to convert byte array to the serialization format | 4-Jan-2022 | Defined in logical model | [Punch list hash](https://github.com/spdx/spdx-3-model/issues/8#issuecomment-1005045081)
+| Text-based formats should use a consistent serialization where possible | 4-Jan-2022 | Don't define | [Punch list hash](https://github.com/spdx/spdx-3-model/issues/8#issuecomment-1005045081)
+| Text-based serialization would use current text-based serialization | 4-Jan-2022 | Create incompatible format | [Punch list hash](https://github.com/spdx/spdx-3-model/issues/8#issuecomment-1005045081)
