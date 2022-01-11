@@ -8,3 +8,5 @@
 | Serialization model defines how to convert byte array to the serialization format | 4-Jan-2022 | Defined in logical model | [Punch list hash](https://github.com/spdx/spdx-3-model/issues/8#issuecomment-1005045081)
 | Text-based formats should use a consistent serialization where possible | 4-Jan-2022 | Don't define | [Punch list hash](https://github.com/spdx/spdx-3-model/issues/8#issuecomment-1005045081)
 | Text-based serialization would use current text-based serialization | 4-Jan-2022 | Create incompatible format | [Punch list hash](https://github.com/spdx/spdx-3-model/issues/8#issuecomment-1005045081)
+| We all agree that signing each individual element is not a requirement | 11-Jan-2022 | Require signing of individual elements | [Tech Team Minutes 11 Jan 2022](https://github.com/spdx/meetings/blob/master/tech/2022-01-11.md)
+| We all agree that a set of content with an outer scope needs to be verifiable. (aka document level in 2.2) | 11-Jan-2022 | Make "document level" verification optional | [Tech Team Minutes 11 Jan 2022](https://github.com/spdx/meetings/blob/master/tech/2022-01-11.md)
