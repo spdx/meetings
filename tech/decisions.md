@@ -14,3 +14,5 @@
 | Relationships will have a 1 to many relationship between the From element and the To elements | 15-Feb-2022 | Many to Many | [Tech Team Minutes 15 Feb 2022](https://github.com/spdx/meetings/blob/main/tech/2022-02-15.md)
 | Agreement to add comments back to external reference | 1-Mar-2022 | Remove comments from external reference | [Tech Team Minutes 1 Mar 2022](https://github.com/spdx/meetings/blob/main/tech/2022-03-01.md)
 | Signatures fall under integrity, but not considered blocking |  1-Mar-2022 | Signatures part of core | [Tech Team Minutes 1 Mar 2022](https://github.com/spdx/meetings/blob/main/tech/2022-03-01.md)
+| details of a subject can go into a profile | 15-Apr-2022 | details in core | [SPDX 3.0 Model Session - April 15, 2022](https://github.com/spdx/meetings/blob/main/tech/2022-04-15-model-session.md)
+| SpecVersion property will be a string that is constrained to one of a set of canonical options published by SPDX in the current or any future specifications | 17-May-2022 | Structured property, subset of SemVer in spec | [Tech Team Minutes 17 May 2022](https://github.com/spdx/meetings/blob/main/tech/2022-05-17.md)
