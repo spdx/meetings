@@ -11,9 +11,9 @@ The SPDX Project has several Teams and topical groups that meet as follows. All 
 * Description: General call with general updates, updates from each Team, and sometimes guest speakers (e.g., talks on how people are using SPDX, GSoC student presentations, etc.)
 
 ## Tech Team meetings
-* Time and cadence:
-* Where: 
-* Descriptions:
+* Time and cadence: weekly on Tuesdays at 12:00
+* Where: https://zoom.us/j/663426859
+* Descriptions: Regular meeting for the Tech Team to work on drafting new versions of the SPDX specification and to discuss technical documentation and official SPDX libraries.
 
 ## Legal Team meetings
 * Time and cadence: twice per month on the second and fourth Thursday of the month at noon
