@@ -23,6 +23,6 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Descriptions: Regular meeting for the Legal Team to discuss current work, projects, etc. 
 
 ## Outreach Team meetings
-* Time and cadence:
-* Where: 
-* Descriptions:
+* Time and cadence: once per month on the third Thursday of the month at 11:00
+* Where: <https://meet.jit.si/SPDXOutreachMeeting>
+* Descriptions: Regular meeting for the Outreach Team to coordinate public relations efforts and discuss current projects.
