@@ -26,3 +26,8 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Time and cadence: once per month on the third Thursday of the month at 11:00
 * Where: <https://meet.jit.si/SPDXOutreachMeeting>
 * Descriptions: Regular meeting for the Outreach Team to coordinate public relations efforts and discuss current projects.
+
+## Build Profile Team meetings
+* Time and cadence: once per week on monday at 14:00
+* Where: <https://meet.jit.si/SPDXBuildProfile>
+* Descriptions: Regular meeting for the Build Profile Team to discuss and propose the SPDX build profile and other adjacent elements.
