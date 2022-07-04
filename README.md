@@ -31,3 +31,8 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Time and cadence: weekly on Mondays at 14:00
 * Where: <https://meet.jit.si/SPDXBuildProfile>
 * Descriptions: Regular meeting for the Build Profile Team to discuss and propose the SPDX build profile and other adjacent elements.
+
+## Canonicalisation Committee meetings
+* Time and cadence: weekly on Fridays at 09:00
+* Where: <https://meet.jit.si/SPDXCanonicalMeeting>
+* Descriptions: Regular meeting for the Canonicalisation Committee to develop the Canonical Serialisation for SPDX 3.0 and agree on recommendations to make to the Tech Team where appropriate.
