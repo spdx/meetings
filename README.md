@@ -15,40 +15,40 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 ## Tech Team meetings
 * Time and cadence: weekly on Tuesdays at 12:00
 * Where: <https://zoom.us/j/663426859>
-* Descriptions: Regular meeting for the Tech Team to work on drafting new versions of the SPDX specification and to discuss technical documentation and official SPDX libraries.
+* Descriptions: Regular meeting to work on drafting new versions of the SPDX specification and to discuss technical documentation and official SPDX libraries.
 
 ## Legal Team meetings
 * Time and cadence: twice per month on the second and fourth Thursday of the month at 12:00
 * Where: <https://meet.jit.si/SPDXLegalMeeting>
-* Descriptions: Regular meeting for the Legal Team to discuss current work, projects, etc. 
+* Descriptions: Regular meeting to discuss submissions to SPDX License List, other license list related work, license-related aspects of the SPDX specification, and other related projects. 
 
 ## Outreach Team meetings
 * Time and cadence: once per month on the third Thursday of the month at 11:00
 * Where: <https://meet.jit.si/SPDXOutreachMeeting>
-* Descriptions: Regular meeting for the Outreach Team to coordinate public relations efforts and discuss current projects.
+* Descriptions: Regular meeting to coordinate public relations efforts and discuss current projects.
 
 ## Sub-groups for specific topics
 ### Build Profile group meetings
 * Time and cadence: weekly on Mondays at 14:00
 * Where: <https://meet.jit.si/SPDXBuildProfile>
-* Descriptions: Regular meeting for the Build Profile Team to discuss and propose the SPDX build profile and other adjacent elements.
+* Descriptions: Regular meeting to discuss and propose the SPDX build profile and other adjacent elements.
 
 ### Canonicalisation group meetings
 * Time and cadence: weekly on Fridays at 09:00
 * Where: <https://meet.jit.si/SPDXCanonicalMeeting>
-* Descriptions: Regular meeting for the Canonicalisation Committee to develop the Canonical Serialisation for SPDX 3.0 and agree on recommendations to make to the Tech Team where appropriate.
+* Descriptions: Regular meeting to develop the Canonical Serialisation for SPDX 3.0 and agree on recommendations to make to the Tech Team where appropriate.
 
 ### Defects Profile group meetings
 * Time and cadence: weekly on Wednesdays at 14:00
 * Where: https://meet.jit.si/SPDXDefectsMeeting
-* Description: Regular meeting for the Defects Profile Team to discuss representation of defects, vulnerabilities and mitigations.
+* Description: Regular meeting to discuss representation of defects, vulnerabilities and mitigations.
 
 ### Implementers group meetings
 * Time and cadence: every 2 weeks on Wednesday at 12:00
 * Where: https://meet.jit.si/SPDXImplementersMeeting
-* Description: Regular meeting for those tool creators implementing the SPDX specification to meet and compare notes
+* Description: Regular meeting for tool creators implementing the SPDX specification to meet and compare notes
 
 ### AI Profile group meetings
 * Time and cadence: weekly on Wednesdays at 17:00
 * Where: https://zoom.us/j/92452702075
-* Description: Regular meeting of the team to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
+* Description: Regular meeting to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
