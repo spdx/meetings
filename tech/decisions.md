@@ -17,3 +17,7 @@
 | details of a subject can go into a profile | 15-Apr-2022 | details in core | [SPDX 3.0 Model Session - April 15, 2022](https://github.com/spdx/meetings/blob/main/tech/2022-04-15-model-session.md)
 | SpecVersion property will be a string that is constrained to one of a set of canonical options published by SPDX in the current or any future specifications | 17-May-2022 | Structured property, subset of SemVer in spec | [Tech Team Minutes 17 May 2022](https://github.com/spdx/meetings/blob/main/tech/2022-05-17.md)
 | SPDX-Snippet-Begin and SPDX-Snippet-End used to mark snippets in source files | 6-Jun-2022 | SPDX-Snippet-Begin: ID/Name ... | Tech Team Minutes 7 Jun 2022
+| Package Download location cardinality 0..1 | 6 Sept 2022 | cardinality 0..*, Note: If you want to have multiple, create separate element and set relationship to COPY_OF. | Tech Team Minutes 6 Sept 2022 |
+| VerifiedUsing should be integrity of thing outside SPDX | 6 Sept 2022 | VerifiedUsing also used for SPDX metadata | Tech Team Minutes 6 Sept 2022 |
+| annotation types are REVIEW and OTHER, nothing else for the core | 6 Sept 2022 | Based on prior decisions | Tech Team Minutes 6 Sept 2022 |
+| An actor may or may not be tied to an identity | 6 Sept 2022 | Based on prior decisions | Tech Team Minutes 6 Sept 2022 |
