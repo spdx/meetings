@@ -20,3 +20,8 @@
 | Remove version from profile property | 4-Oct-2022 | Each profile has a version property | [Tech Team Minutes 4 Oct 2022](https://github.com/spdx/meetings/blob/main/tech/2022-10-04.md)
 | Profiles are released in sync with spec releases | 4-Oct-2022 | Profiles may be released independently | [Tech Team Minutes 4 Oct 2022](https://github.com/spdx/meetings/blob/main/tech/2022-10-04.md)
 | Add NONE to SoftwareDependencyRelationship | 4-Oct-2022 | Keep as is | [Tech Team Minutes 4 Oct 2022](https://github.com/spdx/meetings/blob/main/tech/2022-10-04.md)
+| Package Download location cardinality 0..1 | 6 Sept 2022 | cardinality 0..*, Note: If you want to have multiple, create separate element and set relationship to COPY_OF. | Tech Team Minutes 6 Sept 2022 |
+| VerifiedUsing should be integrity of thing outside SPDX | 6 Sept 2022 | VerifiedUsing also used for SPDX metadata | Tech Team Minutes 6 Sept 2022 |
+| annotation types are REVIEW and OTHER, nothing else for the core | 6 Sept 2022 | Based on prior decisions | Tech Team Minutes 6 Sept 2022 |
+| An actor may or may not be tied to an identity | 6 Sept 2022 | Based on prior decisions | Tech Team Minutes 6 Sept 2022 |
+
