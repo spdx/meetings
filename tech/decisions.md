@@ -24,4 +24,5 @@
 | VerifiedUsing should be integrity of thing outside SPDX | 6 Sept 2022 | VerifiedUsing also used for SPDX metadata | Tech Team Minutes 6 Sept 2022 |
 | annotation types are REVIEW and OTHER, nothing else for the core | 6 Sept 2022 | Based on prior decisions | Tech Team Minutes 6 Sept 2022 |
 | An actor may or may not be tied to an identity | 6 Sept 2022 | Based on prior decisions | Tech Team Minutes 6 Sept 2022 |
-
+| Remove Mandatory Hash from core profile,  and make decision by profile by profile what is expected for integrity. | 11 Oct 2022 | Keep mandatory hash in core | Tech Team Minutes 11 Oct 2022 |
+| 
