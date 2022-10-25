@@ -25,4 +25,5 @@
 | annotation types are REVIEW and OTHER, nothing else for the core | 6 Sept 2022 | Based on prior decisions | Tech Team Minutes 6 Sept 2022 |
 | An actor may or may not be tied to an identity | 6 Sept 2022 | Based on prior decisions | Tech Team Minutes 6 Sept 2022 |
 | Remove Mandatory Hash from core profile,  and make decision by profile by profile what is expected for integrity. | 11 Oct 2022 | Keep mandatory hash in core | Tech Team Minutes 11 Oct 2022 |
-| 
+| Add in Curator role to "Identity" as another optional property in 3.0 (context confidence indicator discussion) | 18 Oct 2022 | Defer to 3.1 | Tech team minute 18 Oct 2022 |
+| Tool type be clarified and added in 3.1 aligning with efforts from other groups (context confidence indicator based on type of tool used) | 18 Oct 2022 | Implement in 3.0 | Tech team minute 18 Oct 2022 |
