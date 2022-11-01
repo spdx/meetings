@@ -18,6 +18,8 @@
 | SpecVersion property will be a string that is constrained to one of a set of canonical options published by SPDX in the current or any future specifications | 17-May-2022 | Structured property, subset of SemVer in spec | [Tech Team Minutes 17 May 2022](https://github.com/spdx/meetings/blob/main/tech/2022-05-17.md)
 | SPDX-Snippet-Begin and SPDX-Snippet-End used to mark snippets in source files | 6-Jun-2022 | SPDX-Snippet-Begin: ID/Name ... | Tech Team Minutes 7 Jun 2022
 | Remove version from profile property | 4-Oct-2022 | Each profile has a version property | [Tech Team Minutes 4 Oct 2022](https://github.com/spdx/meetings/blob/main/tech/2022-10-04.md)
+| Both line and byte range will be supported in Snippets | 25-Oct-2022 | Only support one due to possible conflict | Tech team minutes 25 Oct 2022 |
+| Byte range takes precedence over line range | 25-Oct-2022 | Document would be invalid if byte and line range disagree | Tech team minutes 25 Oct 2022 |
 | Profiles are released in sync with spec releases | 4-Oct-2022 | Profiles may be released independently | [Tech Team Minutes 4 Oct 2022](https://github.com/spdx/meetings/blob/main/tech/2022-10-04.md)
 | Add NONE to SoftwareDependencyRelationship | 4-Oct-2022 | Keep as is | [Tech Team Minutes 4 Oct 2022](https://github.com/spdx/meetings/blob/main/tech/2022-10-04.md)
 | Package Download location cardinality 0..1 | 6 Sept 2022 | cardinality 0..*, Note: If you want to have multiple, create separate element and set relationship to COPY_OF. | Tech Team Minutes 6 Sept 2022 |
