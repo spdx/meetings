@@ -18,6 +18,7 @@
 | SpecVersion property will be a string that is constrained to one of a set of canonical options published by SPDX in the current or any future specifications | 17-May-2022 | Structured property, subset of SemVer in spec | [Tech Team Minutes 17 May 2022](https://github.com/spdx/meetings/blob/main/tech/2022-05-17.md)
 | SPDX-Snippet-Begin and SPDX-Snippet-End used to mark snippets in source files | 6-Jun-2022 | SPDX-Snippet-Begin: ID/Name ... | Tech Team Minutes 7 Jun 2022
 | Remove version from profile property | 4-Oct-2022 | Each profile has a version property | [Tech Team Minutes 4 Oct 2022](https://github.com/spdx/meetings/blob/main/tech/2022-10-04.md)
+| ExternalIdentifier and ExternalReference will be concrete classes which can also be subclassed
 | Both line and byte range will be supported in Snippets | 25-Oct-2022 | Only support one due to possible conflict | Tech team minutes 25 Oct 2022 |
 | Byte range takes precedence over line range | 25-Oct-2022 | Document would be invalid if byte and line range disagree | Tech team minutes 25 Oct 2022 |
 | Profiles are released in sync with spec releases | 4-Oct-2022 | Profiles may be released independently | [Tech Team Minutes 4 Oct 2022](https://github.com/spdx/meetings/blob/main/tech/2022-10-04.md)
@@ -36,3 +37,6 @@
 | Concept of a content identifier may be added in 3.0 or 3.1 that allows linking a gitoid to different artifacts | 1 Nov 2022 | See meeting minutes | Finalized tech call 1 Nov 2022, discussed Friday "punchdown" meeting 28 Oct 2022 |
 | Content identifier will be a property in snippet, file, package, not using external identifier. Gitoid will be the content identifier |  1 Nov 2022 | See meeting minutes | Finalized tech call 1 Nov 2022, discussed Friday "punchdown" meeting 28 Oct 2022 |
 | Everyone in between the producer and consumer of the extension should not have to know the schema for the extension | 1 Nov 2022 | Any intermediate tools would need to understand all extension schemas | tech call 1 Nov 2022 |
+| ExternalIdentifier and ExternalReference will be concrete classes which can also be subclassed | 8 Nov 2022 | ExternalIdentifier and ExternalReference will be abstract classes which must be subclassed | tech call 8 Nov 2022, Friday call 4 Nov 2022 | tech call 8 Nov 2022, Friday call 4 Nov 2022 |
+| Use Relationship Type Other and comment when using an undefined relationship type | Use extensions or add to enumeration values | tech call 8 Nov 2022, Friday call 4 Nov 2022 | tech call 8 Nov 2022, Friday call 4 Nov 2022 |
+| Adding to OTHER to hash algorithm enumeration & Comment to Integrity method | keep as is | tech call 8 Nov 2022, Friday call 4 Nov 2022 | tech call 8 Nov 2022, Friday call 4 Nov 2022 |
