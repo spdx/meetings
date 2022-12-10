@@ -39,4 +39,10 @@
 | Everyone in between the producer and consumer of the extension should not have to know the schema for the extension | 1 Nov 2022 | Any intermediate tools would need to understand all extension schemas | tech call 1 Nov 2022 |
 | ExternalIdentifier and ExternalReference will be concrete classes which can also be subclassed | 8 Nov 2022 | ExternalIdentifier and ExternalReference will be abstract classes which must be subclassed | tech call 8 Nov 2022, Friday call 4 Nov 2022 | tech call 8 Nov 2022, Friday call 4 Nov 2022 |
 | Use Relationship Type Other and comment when using an undefined relationship type | Use extensions or add to enumeration values | tech call 8 Nov 2022, Friday call 4 Nov 2022 | tech call 8 Nov 2022, Friday call 4 Nov 2022 |
-| Adding to OTHER to hash algorithm enumeration & Comment to Integrity method | keep as is | tech call 8 Nov 2022, Friday call 4 Nov 2022 | tech call 8 Nov 2022, Friday call 4 Nov 2022 |
+| Adding to OTHER to hash algorithm enumeration & Comment to Integrity method | keep as is | tech call 8 Nov 2022, Friday call 4 Nov 2022 | tech call 8 Nov 2022, Friday call 4 Nov 2022, tech call 15 Nov 2022 |
+| Relationship completeness enumerations "COMPLETE, INCOMPLETE, UNKNOWN" | (other options not captured in minutes) | Tech call 15 Nov 2022 | Tech call 15 Nov 2022 |
+| Relationships will be 1 to many type relationships | Many to Many, 1:1 | Tech call 15 Nov 2022 | Tech call 15 Nov 2022 |
+| use COMPLETE instead of KNOWN for relationship completeness | Known | Tech call 15 Nov 2022 | Tech call 15 Nov 2022 |
+| Optional fields with default values will be handled in serializations | Specify default values in model | Tech call 15 Nov 2022 | Tech call 15 Nov 2022 |
+| Standard for how we document model in the repo text files generally follow 2.X RDF format (e.g. capitalization of classes, enumeration prefixes) | See minutes for details | Tech call 6 Dec 2022 | Tech call 6 Dec 2022 |
+
