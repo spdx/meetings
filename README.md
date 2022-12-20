@@ -48,7 +48,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Where: https://meet.jit.si/SPDXImplementersMeeting
 * Description: Regular meeting for tool creators implementing the SPDX specification to meet and compare notes
 
-### AI Profile group meetings
+### AI and Data Profiles group meetings
 * Time and cadence: weekly on Wednesdays at 17:00
 * Where: https://zoom.us/j/92452702075
 * Description: Regular meeting to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
