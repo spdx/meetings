@@ -45,4 +45,4 @@
 | use COMPLETE instead of KNOWN for relationship completeness | Known | Tech call 15 Nov 2022 | Tech call 15 Nov 2022 |
 | Optional fields with default values will be handled in serializations | Specify default values in model | Tech call 15 Nov 2022 | Tech call 15 Nov 2022 |
 | Standard for how we document model in the repo text files generally follow 2.X RDF format (e.g. capitalization of classes, enumeration prefixes) | See minutes for details | Tech call 6 Dec 2022 | Tech call 6 Dec 2022 |
-
+| Identity - We'll go forward that this version of model, and unless there is a blocker from examples, we'll revisit other issues after 3.0 | Support "BOT" use case better with a "Process" subclass of Entity or Identity, wait for further examples | Tech call 10 Jan 2023 | Tech call 10 Jan 2023 |
