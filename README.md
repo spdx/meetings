@@ -3,7 +3,7 @@ This repository stores meeting minutes for the SPDX project.
 
 # Meeting Schedule
 
-The SPDX Project has several Teams and topical groups that meet at regular intervals. Meeting are open to anyone and it is recommended to also join the related mailing list (as applicable), see [SPDX Participate](https://spdx.dev/participate/) for more information. All attendees will be expected to identify themselves by name on all meetings. 
+The SPDX Project has several Teams and topical groups that meet at regular intervals. Meeting are open to anyone and it is recommended to also join the related mailing list (as applicable), see [SPDX Participate](https://spdx.dev/participate/) for more information. All attendees will be expected to identify themselves by name on all meetings.
 
 Meetings schedules for the SPDX Project are listed below. All times are listed for US Eastern time zone, 24-hour.
 
@@ -20,7 +20,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 ## Legal Team meetings
 * Time and cadence: twice per month on the second and fourth Thursday of the month at 12:00
 * Where: <https://meet.jit.si/SPDXLegalMeeting>
-* Descriptions: Regular meeting to discuss submissions to SPDX License List, other license list related work, license-related aspects of the SPDX specification, and other related projects. 
+* Descriptions: Regular meeting to discuss submissions to SPDX License List, other license list related work, license-related aspects of the SPDX specification, and other related projects.
 
 ## Outreach Team meetings
 * Time and cadence: weekly on Mondays at 09:00
