@@ -23,7 +23,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Descriptions: Regular meeting to discuss submissions to SPDX License List, other license list related work, license-related aspects of the SPDX specification, and other related projects. 
 
 ## Outreach Team meetings
-* Time and cadence: weekly on Mondays at 09:00
+* Time and cadence: weekly on Mondays at 08:30
 * Where: <https://meet.jit.si/SPDXOutreachMeeting>
 * Descriptions: Regular meeting to coordinate public relations efforts and discuss current projects.
 
