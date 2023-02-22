@@ -54,9 +54,9 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Description: Regular meeting to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
 
 ### Functional Safety Profile group meetings
-* Time and cadence: weekly on Friday at 9:00
+* Time and cadence: weekly on Fridays at 9:00
 * Where:  https://zoom.us/j/94445183726
-* Description: Regular meeting to discuss how the SPDX specificaiton can better support and track functional safety plans.
+* Description: Regular meeting to discuss how the SPDX specification can better support and track functional safety plans.
 
 ### Serialisation Focus Group meetings
 * Time and cadence: weekly on Thursdays at 09:00
