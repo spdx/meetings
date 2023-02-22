@@ -57,3 +57,8 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Time and cadence: weekly on Friday at 9:00
 * Where:  https://zoom.us/j/94445183726
 * Description: Regular meeting to discuss how the SPDX specificaiton can better support and track functional safety plans.
+
+### Serialisation Focus Group meetings
+* Time and cadence: weekly on Thursdays at 09:00
+* Where: https://meet.jit.si/SPDXSerialisationMeeting
+* Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
