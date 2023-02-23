@@ -20,6 +20,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 ## Legal Team meetings
 * Time and cadence: twice per month on the second and fourth Thursday of the month at 12:00
 * Where: <https://meet.jit.si/SPDXLegalMeeting>
+* .ics files for invites: [second Thursdays](./invites/spdx-legal-2023-second-thursdays.ics), [fourth Thursdays](./invites/spdx-legal-2023-fourth-thursdays.ics)
 * Descriptions: Regular meeting to discuss submissions to SPDX License List, other license list related work, license-related aspects of the SPDX specification, and other related projects.
 
 ## Outreach Team meetings
