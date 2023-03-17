@@ -46,3 +46,11 @@
 | Optional fields with default values will be handled in serializations | Specify default values in model | Tech call 15 Nov 2022 | Tech call 15 Nov 2022 |
 | Standard for how we document model in the repo text files generally follow 2.X RDF format (e.g. capitalization of classes, enumeration prefixes) | See minutes for details | Tech call 6 Dec 2022 | Tech call 6 Dec 2022 |
 | Identity - We'll go forward that this version of model, and unless there is a blocker from examples, we'll revisit other issues after 3.0 | Support "BOT" use case better with a "Process" subclass of Entity or Identity, wait for further examples | Tech call 10 Jan 2023 | Tech call 10 Jan 2023 |
+| Primary Purpose name will stay as "container" | change to containerImage | Tech call 17 Jan 2023 | Tech call 17 Jan 2023 |
+| Identity proposal described in [7 Feb 2023 minutes](https://github.com/spdx/meetings/blob/main/tech/2023-02-07.md#identity-model) | See minutes | Tech call 7 Feb 2023 | [Tech call 7 Feb 2023](https://github.com/spdx/meetings/blob/main/tech/2023-02-07.md) |
+| createdBy will have cardinality 1..* | createdBy have cardinality 0..* | Tech call 7 Feb 2023 | [Tech call 7 Feb 2023](https://github.com/spdx/meetings/blob/main/tech/2023-02-07.md) |
+| new property createdUsing for tools cardinality 0..* | tools in createdBy | Tech call 7 Feb 2023 | [Tech call 7 Feb 2023](https://github.com/spdx/meetings/blob/main/tech/2023-02-07.md) |
+| Tentative decision to keep contentType cardinality at 0..1 | change cardinality to 0..* | Tech call 21 Feb 2023 | Tech call 21 Feb 2023 |
+| documentDescribes and hasFiles properties in 2.3 JSON should be deprecated | continue using these "shortcuts" | Tech call 28 Feb 2023 | Tech call 28 Feb 2023 |
+| Add back sourceInfo as property to Package | likely an oversight in current draft | Tech call 28 Feb 2023 | Tech call 28 Feb 2023 |
+| Keep field name contentType | rename to mediaType | Tech call 7 Mar 2023 |Tech call 7 Mar 2023 |
