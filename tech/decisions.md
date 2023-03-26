@@ -54,3 +54,5 @@
 | documentDescribes and hasFiles properties in 2.3 JSON should be deprecated | continue using these "shortcuts" | Tech call 28 Feb 2023 | Tech call 28 Feb 2023 |
 | Add back sourceInfo as property to Package | likely an oversight in current draft | Tech call 28 Feb 2023 | Tech call 28 Feb 2023 |
 | Keep field name contentType | rename to mediaType | Tech call 7 Mar 2023 |Tech call 7 Mar 2023 |
+| add back the suppliedBy property with a range of Agent cardinality 0..1 | use relationship for suppliedBy | Tech Call 21 Mar 2023 | Tech Call 21 Mar 2023 |
+| rename the suppliedBy relationship to "availableFrom" who's to property would point to one or more Agents | keep supplied name | Tech Call 21 Mar 2023 | Tech Call 21 Mar 2023 |
