@@ -56,3 +56,4 @@
 | Keep field name contentType | rename to mediaType | Tech call 7 Mar 2023 |Tech call 7 Mar 2023 |
 | add back the suppliedBy property with a range of Agent cardinality 0..1 | use relationship for suppliedBy | Tech Call 21 Mar 2023 | Tech Call 21 Mar 2023 |
 | rename the suppliedBy relationship to "availableFrom" who's to property would point to one or more Agents | keep supplied name | Tech Call 21 Mar 2023 | Tech Call 21 Mar 2023 |
+| use buildStartTime and buildEndTime | use buildStartDate and buildEndDate | Tech Call 4 April 2023 | Tech Call 4 April 2023 |
