@@ -1,0 +1,21 @@
+#SPDX Serialization Team Meeting 2023-06-22
+
+## Attendees
+* Maximilian Huber
+* Armin Tänzer
+* Holger Frydrych
+* Sean Barnum
+* Arturo
+* Thomas Steenbergen
+
+## Agenda
+* Simpler serialization that supports inlined SPDX Expressions without indirection
+  * We agree that it sounds like a lossy serialization
+  * SB: if it is just written by a tool, we should be able to expect from them to do the indirect serialization
+  * TS: it is seen as complexity and this will add friction to the uphil battle to get upstream to adopt SPDX
+  * TS: there is huge benefit in a simpler and straight forward serialization since the root of the data (the OSS Projects and ecosystems) would be able to adopt it
+    * similar story to OSV, which was a way leaner standart then Sarif and other alternatives
+
+## TODOs:
+* create an example of the simpler JSON and express how it would be expanded to full data (e.g. JSON-LD) and describe, what it looses compared to a full representation of the Model
+* define a reference implementation that rigorously converts examples to full SPDX (e.g. creates the not expressed IDs)  (it is not sufficient to handwave and say "it's easy to do" - need to actually do it.)
