@@ -1,0 +1,34 @@
+# SPDX Serialization Team Meeting 2023-06-15
+
+## Attendees
+* Maximilian Huber
+* Armin Tänzer
+* Alexios Zavras
+* Gary O'Neall
+* David Kemp
+* Arturo
+* Jeff Buddington
+* Joe Bussell
+* Jonathan Gardner
+* Henk Birkholz
+* Rose Judge
+
+## Notes:
+* Problems
+  * next steps towards a serialization
+  * how to avoid too much clutter created by creation infos
+  * need a serialization with plain SPDX License Expressions
+* Gary: How many formats do we want to support?
+  * Alexios: 
+      * we need RDF, which comes with a lot of formats
+      * we need a JSON style serialization
+      * there was also talk about a Human Readable serialization
+      a road forward for current tag-value users
+* JSON
+  * obtained JSON-LD from RDF
+  * there are two proposals
+      https://github.com/spdx/spdx-3-model/pull/376
+https://github.com/spdx/spdx-3-model/pull/375
+  * we looked at @context and discussed objections
+  * we heard many opinions
+  * no conclusion
