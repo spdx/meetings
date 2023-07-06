@@ -1,0 +1,16 @@
+# SPDX Serialisation Meeting 2023-04-06
+
+## Attendees
+
+* Alexios Zavras
+* Armin Tänzer
+* Sebastian Crane
+* Maximilian Huber
+
+## Notes
+
+Discussions of Armin's JSON-LD example from the mailing list. The SPDX JSON-LD full context map would not be included in each SPDX document; it would be referred to by URI instead.
+
+The values of enumerated properties like packagePurpose would be URIs, since JSON-LD doesn't support the context abbreviations as values.
+
+Discussion of dates in SPDX JSON-LD; date times are currently specified as xsd:dateTime in the model repository.
