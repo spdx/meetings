@@ -1,0 +1,33 @@
+# SPDX Serialisation Meeting 2023-03-02
+
+## Attendees
+
+* Sebastian Crane
+* Maximilian Huber
+* Sean Barnum
+* Alexios Zavras
+* Joshua Watt
+* Meret Behrens
+* Marc-Etienne Vargenau
+* Armin Tänzer
+* David Kemp
+
+## Notes
+
+Discussion of restricting JSON-LD serialisation to be compatible with non-RDF JSON.  It was determined that with a combination of context maps and SHACL this is possible.
+
+The formal definition will be in OWL/SHACL, which will define the model and all classes and propetries.
+The OWL/SHACL definitions restrict "RDF" (which is as generic as "XML") to specific content.
+RDF can be saved as triples (subject-predicate-object) or XML or Turtle or JSON-LD.
+JSON-LD is an RDF serialization *and* 100% JSON. Extra stuff: every object has an "@id" (identifier) and "@type" (referencing an id of a type). You can have a "context" to be able to refer to external classes/properties. 
+The SPDX project can publish a "context" that will be used by everyone.
+
+In orer to restrict arbitrary additional data, you can define a class as "closed" in SHACL.
+
+Various members expressed the desire to be able to generate JSON-LD without having to implement full RDF; e.g. being able to blindly copy context maps but validate with JSON schema. Maximilian asked whether it was possible to produce a SHACL restriction when starting from JSON Schema. Sean responsed that it is possible but potentially more difficult than the other way around.
+
+Question to the group whether this approach is acceptable to pure RDF users of SPDX. It is concluded that such SHACL and context map can be used in an acceptable way.
+
+Those present agreed to develop the JSON and JSON-LD serialisation formats in harmony to ensure mutual compatibility between RDF-aware and non-RDF-aware tooling.
+
+Discussion of whether the same technique of restricting JSON-LD could be applied to Turtle, allowing Turtle to replace Tag-Value as the primarily human-readable serialisation format for SPDX 3.0. It was felt that not all interested stakeholders were present for this discussion; Sebastian to write on the mailing list to solicite extra participation. The March 16th meeting will be focused on this topic, with Sean offering to present slides relating to RDF to aid the discussion.
