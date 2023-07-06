@@ -1,0 +1,21 @@
+# SPDX Serialisation Meeting 2023-03-16
+
+## Attendees
+
+* David Kemp
+* Meret Behrens
+* Maximilian Huber
+* Armin Tänzer
+* Sebastian Crane
+* Sean Barnum
+
+## Agenda
+
+* RDF Turtle
+
+## Notes
+
+Sean presented a deck of slides that he and Alexios had created to explain concepts relating to JSON-LD and RDF with regard to SPDX. The presentation convered JSON, JSON-LD, context maps and ontologies.
+
+Those present agreed that Tag-Value should be replaced with a more structured format based on existing standards. Maximilian asked it to be noted that he believes that a specifically human-readable format would be unneccessary once the JSON format is defined, and that Tag-Value should be removed.
+
