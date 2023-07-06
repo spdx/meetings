@@ -1,0 +1,30 @@
+# SPDX Serialisation Meeting 2023-04-27
+
+## Attendees
+
+* Alexios Zavras
+* Maximilian Huber
+* Meret Behrens
+
+## Agenda
+* Feedback on 
+
+## Minutes
+
+* PR to kick-off serialization: https://github.com/spdx/spdx-3-model/pull/238/files
+* tag-value is not on the blocking path
+* focus on rdf and json 
+* Max: What do we need to generate rdf (up to changes in md files)?
+* Alexios: need to generate ontology for rdf 
+* Max: Whats difference to .ttl file? 
+* Alexios: No difference
+* Max suggest to have a work session to generate json from json-ld , could use a well-known example from SPDX 2.3, convert it
+  * start with examples:
+     * https://github.com/spdx/spdx-spec/tree/development/v2.3.1/examples
+     * https://github.com/spdx/spdx-examples
+* where to put generated files? 
+* gist? examples-repo? ...
+
+* TODOs:
+    * Armin & Meret: generate example 3.0 json-ld and rdf from examples
+    * Alexios: schedule a work meeting for 3PM GMT on tuesday before tech call
