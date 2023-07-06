@@ -40,10 +40,12 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Descriptions: Regular meeting to develop the Canonical Serialisation for SPDX 3.0 and agree on recommendations to make to the Tech Team where appropriate.
 * *Note*: the group has paused their regular meetings, waiting for final serialization(s) outcome.
 
-### Defects Profile group meetings
+### Security Profile group meetings
 * Time and cadence: weekly on Wednesdays at 14:00
 * Where: https://meet.jit.si/SPDXDefectsMeeting
-* Description: Regular meeting to discuss representation of defects, vulnerabilities and mitigations.
+* Description: Regular meeting to discuss representation of software 
+vulnerability metadata in the SPDX specification including vulnerability 
+identifiers, status, mitigations and remediations.
 
 ### Implementers group meetings
 * Time and cadence: every 2 weeks on Wednesday at 11:00
