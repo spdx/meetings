@@ -1,0 +1,61 @@
+#SPDX Serialization Team Meeting 2023-06-29
+
+## Attendees
+* Maximilian Huber
+* Armin Tänzer
+* Holger Frydrych
+* Gary O'Neall
+* Nisha Kumar
+* David Kemp
+* Jonathon Gardener
+* Rahul
+
+## Agenda
+* Consolidation of Serialization Examples in a Repo?
+* 
+
+## Collection of PRs and Issues serializations
+* proposals:
+  *  https://github.com/spdx/spdx-3-model/pull/375
+  * https://github.com/spdx/spdx-3-model/pull/376
+* discussion regarding a simplified version:
+  * https://github.com/spdx/spdx-3-model/issues/396
+
+## Notes
+* summary of last weeks tech team meeting
+* Serlialization Examples Repo
+  * NK:
+    * create examples, and describe them. And others can propose serializaiton examples
+  * DK:
+    * like a serialization playground
+  * GO'N:
+    * if someone writes a readme, we have a name and a list of codeowners, I can spin that up
+  * MH:
+      * we should do a depth first approach, and should try to have some complexity instead of listing all base cases
+  * GO'N:
+      * maybe start with https://github.com/spdx/spdx-spec/tree/development/v2.3.1/examples
+  * DK:
+      * I propose to have a table of contents to compare multiple serializations of the same accross each other
+  * NK:
+      * Proposed structure
+        * README
+        * model/
+        * serialization/
+          * format1/
+          * format2/
+        * tests
+  * NK:
+    * suggested to use the https://github.com/spdx/spdx-examples/ instead of a new playground repository
+      * GO'N:
+         * I think we still need the playground
+* NK: Rahul was introduced, he is a GsoC intern, contributing to the parsers in the spdx-sbom-tool
+    
+## Decision:
+* we will create a "prototype-3.0" branch in the spdx-examples repo and it is free for others to contribute proposed serializations
+* we (Gary) will create a spdx-3-serialization-prototype-playground
+  * Maintainers: Nisha, Max, David
+
+## TODOs:
+* NK: I will create the README 
+* GO'N: create the repository
+* NK: I plan to rework spdx-examples repo to support SPDX3 and that can be used as playground
