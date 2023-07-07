@@ -31,3 +31,6 @@
     - JSON-LD-as-JSON
     - simple JSON
   - other formats, possibly including a very simple printf-generated
+- Next meeting, we'll focus on a decision of the JSON-LD format can be a more general JSON format or if we need a second JSON format
+  - If we decide we need a second format, we will document the issues with the JSON-LD
+  - If we decide we need a second format, we will review David's proposal and decide if it meets the needs for a second JSON format or document the issues preventing it from being accepted
