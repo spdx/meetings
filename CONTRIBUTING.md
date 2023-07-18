@@ -6,6 +6,6 @@ If a team has conventions different from the conventions documented in this file
 Meeting minutes are titled by the date in the format `YYYY-MM-DD.md`.
 At the end of the year, that year's files should be moved into a directory named for that year `YYYY`.
 ## Pull Requests
-New meetings should be added as a pull request.
+New meeting minutes should be added as a pull request.
 Sufficient time should be allowed for review before merging.
 It is suggested that there is at least one review from an attendee of the meeting, but even if no reviews, it should be merged before the next meeting.
