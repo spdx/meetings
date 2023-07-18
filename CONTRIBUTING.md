@@ -7,5 +7,5 @@ Meeting minutes are titled by the date in the format `YYYY-MM-DD.md`.
 At the end of the year, that year's files should be moved into a directory named for that year `YYYY`.
 ## Pull Requests
 New meetings should be added as a pull request.
-One week should be allowed for review.
-It is suggested there is one review from an attendee of the meeting before merging, but if no one reviews within 2 weeks it should be merged.
+Sufficient time should be allowed for review before merging.
+It is suggested that there is at least one review from an attendee of the meeting, but even if no reviews, it should be merged before the next meeting.
