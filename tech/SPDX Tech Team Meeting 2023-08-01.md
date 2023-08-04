@@ -96,7 +96,7 @@
 * Nisha: I get the feeling these conversations are biased towards existing tools that work with rdf and json-ld exclusively 
     * Gary: it generally applies to all serialization.
 * David: https://www.w3.org/TR/rdf12-schema/#ch_collectionvocab an RDF "Collection" (i.e. not SPDX Collection which is an RDF "Container")  has: List, First, and Rest (i.e. Complex Datatype without an object ID)
-* Next step:  Provide SPDX centric examples on how it will break SPDX?   Will make it more difficult, but prevent some capabilities.
+* Next step:  Sean to provide SPDX centric examples on how it will break SPDX?   Will make it more difficult, but prevent some capabilities.
 * Looking for examples at:  Linked data question and ID5 question. 
 * Concern points agreed to:  Hurts compaction,  bloats out document. 
 * IDs for these groupings,  and why 
