@@ -35,4 +35,5 @@ in https://github.com/spdx/spdx-3-serialization-prototype-playground/pull/3
 *
 
 ## Action Items
-*
+* Decide on disallowing the use of blank nodes in SPDX serializations (e.g. creationInfo would need a full URI and not be allowed to use a blank node) - to be discussed and decided on the Aug 1 tech call
+* Decide if we should require duplicate copies of any non-elements even if they are known to be identical in serializations - to be decided on the next serialization call on 27 July 2023
