@@ -1,0 +1,46 @@
+# SPDX Tech Team Meeting 2023-06-27
+
+## Attendees
+* Alexios Zavras
+* Armin Tanzer
+* David Edelsohn
+* Dick Brooks
+* Gary O'Neall
+* Kevin Cressman
+* Kevin Conner
+* Max Huber
+* Nisha Kumar
+* Rob Craig
+* Thomas Steenbergen
+* Jennie Kauffmann
+
+## Agenda
+* Logistics
+* Licensing profiles
+* Compacting creation information
+
+## Notes
+
+* Logistics
+  * Do we have a meeting next week on July 4? Agreed to skip
+  * extra meeting in Japan-friendly timeslot.  One hour earlier (15:00 UTC), Tue 11 July. Gary to confirm with people from Japan
+
+* Licensing profiles
+  * https://github.com/spdx/spdx-3-model/issues/394
+  * Licensing profile depends on classes defined in ExtendedLicenseing profile
+  * maybe move all expanded licensing classes to expandedLicensing profile (With, OrLater, etc.), and leave only LicenseExpression in Licensing profile
+  * need also CustomLicense!
+  * maybe have a SimpleCustomLicense in the licensing profile, with only a "licenseText: xsd:string" property
+  * Arimn to create a PR about it to check details
+
+* compacting creation information – issue #306
+  * is it a model or serialization issue?
+    * serialization compaction approach  Issue #357
+    * model change  “unbundled” or individual profile #343
+    * or maybe move it to a payload (header) #375
+
+* Spelling change fix approved.
+
+## Decisions
+*
+## Action Items

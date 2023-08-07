@@ -57,3 +57,7 @@
 | add back the suppliedBy property with a range of Agent cardinality 0..1 | use relationship for suppliedBy | Tech Call 21 Mar 2023 | Tech Call 21 Mar 2023 |
 | rename the suppliedBy relationship to "availableFrom" who's to property would point to one or more Agents | keep supplied name | Tech Call 21 Mar 2023 | Tech Call 21 Mar 2023 |
 | use buildStartTime and buildEndTime | use buildStartDate and buildEndDate | Tech Call 4 April 2023 | Tech Call 4 April 2023 |
+| Use suppliedBy also for other elements beyond artifacts. One side should always be agent | stay with current suppliedBy only used for artifact | Tech Call 25 April 2023 | Tech Call 25 April 2023 |
+| ok to add to /Core/ExternalIentifier two properties: `identifierLocator: IRI[0..*]` `issuingAuthority: IRI[0..1]` | Keep ExternalIdentifier as is | Tech Call 25 April 2023 | Tech Call 25 April 2023 |
+| Amends - decision is to leave as is right now, and description should capture replacing an old element with a new element | Amends could mean updating an old element without replacing | Tech Call 2 May 2023 | Tech Call 2 May 2023 |
+| License will be a subclass of element | License subclass of class different from Element | Tech call 30 May 2023 | Tech call 30 May 2023 |
