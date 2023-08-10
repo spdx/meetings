@@ -1,0 +1,51 @@
+## SPDX Defects Team meeting 04.27.2022
+
+## Attendees
+* Thomas Steenbergen
+* Bob Martin
+* Rose Judge
+* Henk Birkholz
+* VM Brasseur
+* Karsten Klein
+* Jeff Schutt
+* William Cox
+* Henk Birkholz
+
+## Agenda
+* Approval of [meeting minutes from last week](https://github.com/spdx/meetings/pull/149)
+* Working session on Annex 
+
+##  Notes
+### Approval of meeting minutes from last week
+* https://github.com/spdx/meetings/pull/149 - Approved/merged
+
+### Outcome of the working session for security Annex
+* See 2.x Defects Specification for the progress https://docs.google.com/document/d/1A9lOwYrpVlmxBl_cEahZTMeo0gU6yDxkgSbx4I5K5v4/edit
+* Summary of changes from yesterday's working session:
+  * Changed summary of "security" description in introduction section
+  * Added examples for advisory/fix
+  * Couldn't find a good CSAF file to link to (Jeff will take this as a TODO)
+  * CycloneDX - picked one of their BOM examples
+  * Tried to choose stable links (i.e. GitHub)
+  * Couldn't find a good GitBOM link (Jeff will take this as a TODO)
+  * Linking to a vulnerability disclosure document - what to do?
+  * Code fix: we looked at various ways to reference a fix (i.e. code commit, patch file, disclosure information document which contains a list of fix for different applications)
+  * Linking to security related documents: similar to OSV, pointing to a markdown file. Still looking for other examples like blog posts, anything else that shows "catch all" situations.
+
+### Proceeding with discussion to write the security Annex
+* Linking to a vulnerability disclosure document:
+  * Typically an advisory comes with a disclosure
+  * Do we want to include https://github.com/rjb4standards/REA-Products/blob/128d90835317bb9895979441ea7eb065dccd162e/SBOM_VDR.json ?
+  * Jeff: An option would be to provide a few companies' product advisories that relate to the same CVE that we use in an above example 
+* Linking to any security related document (i.e. `url`)
+* Thomas can open "Annex G" as a separate PR - still need a name for the Annex. We will get suggestions from the tech. 
+* What if I have a log4j vulnerability tool? i.e. I want to get security information for a particular vulberability and  I have a tool that only checks for that vulnerability - where would that go?
+  * Bob: this is a blob version of VEX
+  * Thomas: this would fall under "vulberability disclosure document"? (Bob says yes)
+  * CISA has a vulnerability guidance page to determine if you are vulnerable to log4j (https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance). This might be a good example for general `url` use case.
+* Karsten: What about linking to some cert pages also [under G1.6 advisory]?
+  * https://cert.europa.eu/cert/Data/newsletter/reviewlatest-SecurityBulletins.xml
+* Jeff: I like the idea of providing examples for each external reference type that all point to information about the same vulnerability. Is there agreement to focus on log4j or does it make sense to use heartbleed or another older and well-known vuln for which the info being linked to is less likely to change between now and when the annex gets published? 
+* Thomas: Don't want to only focus on log4j, should use others as well
+* Karsten: This is a very well known example and well understood
+* Jeff: option to use Cisco's security advisory for log4j: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
