@@ -1,0 +1,54 @@
+## SPDX Defects Team meeting Workshop 04.20.2022
+
+## Attendees
+* VM Brasseur
+* Karsten Klein
+* Jeff Schutt
+* Christian Long
+* Thomas Steenbergen
+* Rose Judge
+* Anthony Harrison
+* Bob Martin
+
+## Agenda:
+* Approval of the meeting minutes from last week - https://github.com/spdx/meetings/pull/145
+* Outcome of questions raised to SPDX tech meetings
+* Next steps
+
+## Notes
+### Approval of the meeitng minutes of April 13th
+* Approved see https://github.com/spdx/meetings/pull/145
+
+### Update on PR from last week
+* https://github.com/spdx/spdx-spec/pull/658
+* Comments appreciated; Jeff has already reviewed/commented
+* Some markdown issues on the PR - Thomas will fix but content of proposal is not affected
+* CPE describes a product and version; nothing that points to CVEs. CVEs in the NVD have CPEs attached to them (not always).
+* Henk: Why don't we have CPE as a persistent ID in this "security" list?
+* When a vuln gets assigned a CVE ID, it usually does not have a CPE. It gets entered into NVD and NIST has to go assign and add CPEs (this does not happen instantly, or ever). 
+* Henk: F2.3 - advisory would in theory also be a CVE.
+* Jeff: https://nvd.nist.gov/vuln/detail/CVE-2022-22965/cpes?expandCpeRanges=true
+* Henk/Bob: good enough for 2.3
+* Henk: other 3.0 work would include other types more specific than advisory?
+* Jeff: Many different types we *can* define (these are all listed in the 2.x defects specification) but for 2.3 we are going to keep it simple 
+* OK, Henk is satisfied :D
+
+### Outcome of questions raised to SPDX tech
+  * Draft specification available for comments see https://github.com/spdx/spdx-spec/pull/658
+  * https://github.com/spdx/spdx-spec/blob/development/v2.2.2/chapters/external-repository-identifiers.md has locators for each field but for security info fields are URLs for which regex makes not sense what to do?
+  * Where to place additional guidance for exchanging security info using SPDX - new annex or seperate doc?
+* ^ Raised these questions in the SPDX tech call on Tuesday April 19th - https://spdx.swinslow.net/p/spdx-tech-minutes
+* Final conclusion was to add a "How to Annex" section for other work groups to provide additional guidance
+* Consensus from SPDX tech call: Leave the existing Annex F - create new Annex for the additional security information
+* Anthony: How does putting it in the spec consider our concerns from last week wanting more agile change ability?
+* Thomas: for 2.3, this is the solution for high level information. For 3.0 we will do this differently.
+* Rose: are we writing the Security Annex during this call?
+* Jeff: I think we can take some of the things we've already written 
+* Thomas: two options: 1) working session (i.e. 2 hours with whole group) or 2) two or three people come up with a proposal and then we do the editing in this meeting.
+  * Rose and Jeff: preference for option 1 - preferrably before Wednesday of next week so we can review next week
+  * Thomas will send out a doodle
+  * Maybe after the SPDX Tuesday call April 26th?  7:30PM CEST / 1:30 ET / 10:30 AM PST
+    * Thomas will send out invite but we will also start now with the remaining 30 minutes of this meeting
+
+### Brainstorm to write Security Annex
+* Brainstorming work happening in the [2.x Defects Specification](https://docs.google.com/document/d/1A9lOwYrpVlmxBl_cEahZTMeo0gU6yDxkgSbx4I5K5v4/edit)
