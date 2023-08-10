@@ -1,0 +1,59 @@
+## SPDX Defects Team meeting07.06.2022
+
+## Attendees
+* Thomas Steenbergen
+* Rose Judge
+* Karsten Klein
+* Dick Brooks
+* Jeff Schutt
+* Bob Martin
+
+## Agenda
+* Approval of [meeting minutes](https://github.com/spdx/meetings/pull/200) from last week
+* Continue discussion on SPDX 3.0 Defects example
+* From last week: Example dashboards and reports to support vulnerability assessment, monitoring and reporting use cases
+
+## Notes
+
+### Approval of meeting minutes
+* https://github.com/spdx/meetings/pull/193 is approved & merged
+
+### Continue discussion on SPDX 3.0 Defects example
+* Example: https://gist.github.com/tsteenbe/ea3c9ccf98a0130c5507ecf2e82b9398
+* Let's first look at linking scneario
+  * Thomas: this might be a chance to do a cleanup
+  * 3.0 Model: https://raw.githubusercontent.com/spdx/spdx-3-model/main/model.png
+  * ExternalRefs no longer has a category, only has `externalReferenceType` and `locator`, which is an IRI
+  * Thomas: do we want to do things differently when referring to a URL?
+  * Jeff: in 2.x we talk about everything as an identifier or a locator but in 3.0 we wanted to separate the two - does it add value to be able to separate the two? Is there an overarching term we can use?
+  * Thomas: URL is a type of locator
+  * Jeff: An IRI can be an ID or a locator
+  * Precedent for keeping IRI and URL separate (they are separate in the 3.0 core model ExternalMap)
+  * Jeff: Propose changing `locator` to `iri` in the externalRef details - would need to bring this back to core
+  * Jeff: Does providing the `category` give context for what the IRI is for? Suspect it does
+  * Thomas: Not sure it does. I can already see what it is based on the locator format (i.e. purl or cpe)
+  * Bob: Not necessarily; Jeff: I could use cpe to just point to a persistent id for supportability info for a component instead of security
+  * Thomas: the point of category seems like redundant information; not adding value. Maybe purposeful if two categories can define the same type but be different
+  * Thomas: As a user, I can decide how to use the information from the `externalReferenceType`
+  * Proposal to eliminate `externalReferenceCategory` from externalRefs
+  * Can't drop the `externalReferenceType` because tools need to know how to interpret the locator
+  * TODO: We should check with the core team that the dropping of `externalReferenceCateogry` is not omitted on accident in the model - need to confirm that it is intentionally dropped. Also need to check that we can change `locator` to `iri`
+  * We defined several `externalReferenceTypes` in 2.3. Do we want to keep these types or re-open discussion?
+  * Jeff: let's keep what we have for now and when we have a reason to append/add let's come back and re-visit.
+  
+* Thomas introduced new to/from relationship types for the 3.0 defects profile: ADVISORY_FOR, SOURCE_OF, KNOWN_NOT_AFFECTED - do we need others?
+* Maybe a security vendor creates the vulnerability, but they are not the original source. Do we need another relationship? Could maybe use CREATED_BY (which already exists)
+* Rose: some sort of "patched_by" or "fix_provided_by" to point to entities *doing* the fix (versus just the code that is the fix)
+* Core has concept of "originator" - which is the creator of the SBOM (?). 
+  * Jeff: Actor creates an element but the originator is of the artifact. SBOM should be able to be created by an actor, which means that security info is also created by an actor. Not totally clear how that is captured in this model.
+* Jeff: Are we extending the element to have additional properties? Is security advisory another element?
+* Thomas: it's a metadata element 
+* Jeff: Why [in the 3.0 model] is SBOM itself pointing at BOM and not artifact?
+* Jeff: example proposes a relationship type but can we solve for some of this using a "status" property instead of relationship?
+  * How do you point back?
+* Jeff: Maybe add `status` as an element property?
+  * Thomas: but the element for the package lives in a completely different SBOM (Bob: you technically don't *have* to but security info better to be separate since it may need to be updated)
+* Jeff: might want to be able to model both ways? If you have core and defect profiles, you understand the package may have additional property "status" - could declare a package is `KNOWN_NOT_AFFECTED` right off the bat
+* Thomas: what happens if a CVE gets updated and now you are affected?
+* Rose: We need to figure out how relationship IDs are correlated to ExternalRefs; right now there's nothing connecting the two
+  * Thomas: we could put an ID on  an external ref which would be easy to correlate
