@@ -1,0 +1,43 @@
+## SPDX Defects Team meeting 08.31.2022
+
+## Attendees
+* Thomas Steenbergen
+* Bob Martin
+* Jeff Schutt
+* Anthony Harrison
+
+## Agenda
+* Approval of [meeting minutes](https://github.com/spdx/meetings/pull/205) from June
+* SPDX 2.3 was released
+* Continue discussion on SPDX 3.0 Defects example and dig into symantically how we might do this with the SPDX 3.0 model
+* e.g. using relationships
+* e.g. using a class and associated properties specific to a security profile
+* e.g. creating an Element extension
+
+## Notes
+
+# Meeting Minuted
+* Approval of meeting minutes - Approved
+
+# SPDX 2.3 released
+* Defect WG work on 2.3 is now officially part of the SPDX spec see https://spdx.github.io/spdx-spec/v2.3/external-repository-identifiers/ and https://spdx.github.io/spdx-spec/v2.3/how-to-use/
+
+# SPDX 3.0 Defects example
+
+* We want the capability to capture the status of security issues in the packages in a software's SBOM - e.g., "we know this CVE will be found but it's not an issue'. 
+* This would be separated from linking to dynamic security info. 
+* This would be only used on creation of package/product SBOM. Cuts down need for downstream to investigate security issues.
+* Goal: convey when the vulnerability does not affect the package in this specific software
+* Thomas: What about "won't fix "or "can't fix"?
+* Jeff: Useful in open source community but creates a lot of noise in vendor community. Adoption by vendors is likely low
+* Bob: Useful for FOSS community to denote branch will not get fixes
+* In summary: standard should convey many types of status (see https://docs.oasis-open.org/csaf/csaf/v2.0/csd02/csaf-v2.0-csd02.html#45-profile-5-vex for status types) and shouldn't be limited to only those terminal states of a vulnerability in a release of software SBOM. Primary use would be "not affected" and "fixed" but there may be other statuses used.
+
+Next Meeting: dig into symantically how we might do this with the SPDX 3.0 model
+* e.g. using relationships
+* e.g. using a class and associated properties specific to a security profile
+* e.g. creating an Element extension
+
+Note: Skipping September 7 meeting  due to several regular members not being able to attend 
+
+Summer break next call will be on August 31th
