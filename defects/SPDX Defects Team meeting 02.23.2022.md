@@ -1,0 +1,101 @@
+## SPDX Defects Team meeting 02.23.2022
+
+## Attendees
+* Thomas Steenbergen
+* VM Brasseur
+* Rose Judge
+* Christian Long
+* Jeff Schutt
+* Karsten Kelin
+* Nisha Kumar
+* Anthony Harrison
+* William Cox 
+* Henk Birkholz
+
+## Agenda
+
+General
+* Approval of minutes of last week's meeting
+* Updates on action items
+* Ways of working
+* Adding linking to security vulnerability information in SPDX 2.3 
+* Changing SPDX 2.x to enable SBOM without licensing fields to solely support security use cases
+
+##  Notes
+
+### General  
+   * Thomas: Create pull request for week's meeting see https://github.com/spdx/meetings/pull/129
+actions items:
+* Please review & approve so we can merge
+    
+#### Updates
+   * Thomas: Updated the reference materials document with links shared in the last meeting, see https://docs.google.com/document/d/1R0gV58ZHcxZgBKsG5y6xP8hfME6jbcGgrbPm437QNIQ/edit?usp=sharing
+   * Thomas: Still have an open item to work with @Rose on organizational details of her being my back up
+   * Thomas: Sent VMB an email & she owes Thomas a reply
+   * VMB: Thomas's availability does not overlap with OpenSSF Vulnerability WG', VMB + Thomas to sync over email.
+   * Thomas: is on holiday from Feb 27 - March 6th, will sync up with Rose so she can host the meeting
+
+#### Ways of working
+   * Thomas: To improve the minutes this meeting will be recorded - note recording will solely be used for minutes taking, once minutes are written the recording will be destroyed. No recording happening due to Dropbox login issues from TS, need to sync Kate dropbox account from LF.  Action item for next meeting
+   
+   * Thomas: Dick created https://github.com/spdx/spdx-spec/issues/627#issue-1143563272. Shall we edit it to  're-use' to make reference to current ongoing  activities?
+   * Nisha: We could also use Discussions or Projects instead of an issue
+   * Nisha: I tend to comment on issues, GitHub will alert those with notifications turned
+   * Rose: No preference but prefer to consolidate the discussions
+   * Thomas: Have preference to issues
+   * Anthony / Jeff: Can we an issue and label it with defects
+   * Thomas: Update the issue with a label and as a group we updated the description
+   * Thomas: Agreed in the group to discuss and put the final proposal in the GitHub issue
+   * Consensus - use the ticket in the mailing list, make a final proposal, decide on an RFC period. Once the period closes make a PR
+   
+#### Proposal for Future Items list
+  * VMB - one example of keeping track of items
+  * Thomas - some of these proposals can be long so maybe not very condusive
+  * VMB - perhaps point to the issue when doing the future item
+  * Thomas - if it's a 1-3 liner then we can add it, and if it's one item put it in the issue
+  * VMB - concur - one liner means open an issue
+  * Consensus - LGTM
+
+   * Propose we create a 'Parking lot' where people can submit their ideas for SPDX 3.0 Defects profile so we can keep discussion focused but don't lose input. Google form where anyone can submit ideas?
+   
+ ### Adding linking to security vulnerability information in SPDX 2.3 
+ * Thomas: Updated the proposal based on last week's feedback, can we finalize it? ;-)
+ https://docs.google.com/document/d/1A9lOwYrpVlmxBl_cEahZTMeo0gU6yDxkgSbx4I5K5v4/edit?usp=sharing
+ * Open topics: 
+  * security referenceTypes to be added
+  * agree on names of referenceTypes
+* Thomas - made two examples + Dick's example
+* Proposal says the spec is unaware of where the link goes to and what kind of information it has. The consuming tool will download it, but expect that the consuming tool will just say "here is a link" but will not do anything more with it.
+* Thomas - currently we need to get the 2.3 patch done, and in the future we can add things like 
+* Rose - is the expectation that the tool will just display a link? If yes, then how do we point to dynamic information from a static document.
+* Thomas - yes, big problem.
+* Anthony - yes, if a SBOM points to a static URI then the vuln data can move.
+* Rose - but how do we know if the link is stale?
+* Anthony - perhaps putting a timestamp in the link?
+* Henk: Putting timestamps in the link will not pass URI scheme linting
+* Thomas - tricky thing is how to fit this into 2.x. It will get ugly.
+* Anthony - perhaps adding guidance on how to include that information without specifying
+* Thomas - two different ways
+* Single type defect link
+* Different types of defect links
+* Do we want to express timestamp data in this way
+* Anthony - maybe an external reference to all of the vulnerabilities.
+* Thomas - maybe adding some context to the URL. Eg: code commit means fix and URL pattern indicate security advisory. 
+* Rose - are the reference types predefined? Thomas - they have to be
+* Anthony - would option 2 apply to every single package?
+* Thomas - because the security advisory is against a package, it is required. However, how you implement it can allow you to declare a top level package.
+* Thomas - we could add ^^ as guidance (this is option 2 allows you to say whether the link is a link to a disclosure, advisory, fix, etc.
+* Option 1 is easier to implement, and we are moving to SPDX 3.0 so maybe we don't have to spend time on this.
+* Thomas - this is easy to implement
+* CSAF is trying to include this information. If option 1 is used then one could just point to a CSAF document.
+* Thomas - there is a conflict - we have existing standard vs too heavy for our use cases and its not feasable for an Open Source community. Enterprise vs Community or Simple vs Comprehensive
+* Anthony - from a project management perspective, I just need to know if there is something I need to look at.. The investigation will then look into the additional information including sources and whether a fix is available
+* Karsten - We need to start with the use case. Not sure what option 2 solves. Primary use case should be "identifying things". For vulns it is using information to correlate product to vulns. 
+* Nisha - suggest moving this topic to next meeting
+
+Anthony - We are linking to a vulnerability document. Where do we identify the format of this document? I have seen CycloneDX has a proposed VEX document. Do we care what format?
+* Dick - this is important, this may be leaving it wide open but having a single link to be processed later seems best.
+
+###  Changing SPDX 2.x to enable SBOM without licensing fields to solely support security use cases
+ * Thomas: Raised this in yesterday's tech call but wanted to also discuss it here - does this group agree to put in an issue to request a change to SPDX 2.x spec to make all license related fields optional? 
+* Also to be discussed in next meeting
