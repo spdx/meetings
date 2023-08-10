@@ -1,0 +1,66 @@
+## SPDX Defects Team meeting 03.09.2022
+
+## Attendees
+* Christian Long
+* Rose Judge
+* Dick Brooks
+* Karsten Klein
+* Jeff Schutt
+* Thomas Steenbergen
+* Kate Stewart
+
+## Agenda
+* General
+* Approval of minutes of last week's meeting
+
+* Changing SPDX 2.x to enable SBOM without licensing fields to solely support security use cases
+
+## Notes
+### General
+* No objections to last weeks minutes
+
+###  Changing SPDX 2.x to enable SBOM without licensing fields to solely support security use cases
+* 2.2 has several mandatory fields related to licensing. SPDX call had brief discussion two weeks ago about whether SPDX can *only* communicate security information (free of licensing info, which SPDX was created to communicate). 
+* We are working on 2.3 which can communicate security info - should we change the spec to make some of the license fields optional (i.e. declared license, copyright field, etc). If you are communicating security information and don't care about lisencing, why should we require it? Note that these fields can be ommitted by using `NOASSERTION` or `NONE`.
+* We need the legal team to review, as well as the general call.
+* Can we use profiles in 3.0 to address this? Yes, profiles will fix this but what should we do for 2.3?
+* If we require licensing infromation can lead to [size] inflated SBOMs with lots of NONEs and NOASSERTIONs.
+* Dick agrees a lot of the licensing material is extraneous but he can go either way right now.
+* Jeff: if we are adapting 2.3 to disclose security information about components then we should be able to omit licensing information (Dick agrees).
+* Are we getting complaints/requests for this? 
+* We are waiting for someone to open a PR in the repo for this? Yes. Fields that are related to licensing and have a NOASSERTION option that are currently mandatory should be moved to optional. Rose volunteers to help open this PR.
+  * ConcludedLicense, All License information from package (licenses from file, etc), DeclaredLicense, CopyrightText for packages, files and snippets.
+  * https://spdx.dev/wp-content/uploads/sites/41/2020/04/spdx_onepager.pdf
+* Dick: One concern related to NTIA support for US EA. If we make this change, is it going to create any delay in getting 2.3 out the door before the August deadline? Validation checks will likely need to be re-coded to do this.
+  * Validation tooling will need to be adjusted to not flag if it's missing.
+  * Q: Anyone from tooling that could tell us how big of a change this would be? A: Gary ONeall 
+* Kate shares comparison of NTIA comparison to SPDX fields: (https://docs.google.com/document/d/1fkw_RwdTPH2XvrlLQFanYr_A0JFF6y9KB5HncrcZFYM/edit)
+    * 7.2 Unique identifier NTIA minimum columnn: part 1 you have to have a namespace part 2 is you have to have something relative to that namespace
+    * Kate: NTIA wording for component: unit of software defined by the supplier (package or snippet).
+    * Jeff: While SPDX lists packages as a component, the SPDX document itself recognizes a component which also has its own identifier and document namespace? 
+* Thomas: Should we create a PR for 2.3 to make [the NTIA comparison info] part of the spec or make this a separate document (i.e. like the SPDX one-pager so we have something part of the spec to compare NTIA minimum elements)?
+* Kate: PR already exists to add in NTIA supplier field (NTIA minimum) not present in NTIA lite. Given SPDX lite is a minimum viable, we basically go forward from there and say what we want. Will be difficult when the SPDX Lite people want to relax licensing info.. so maybe this should be an appendix.
+* TODO: put a new PR in for a new appendix.
+* Thomas: is this an appendix or a separate document? Kate says either way.
+* Thomas: to create an issue to document the NTIA minimum spec in 
+* Dick: if the document doesn't validate in the SPDX tool then vendor is considered out of compliance, so it's important that it validates.
+* Rose TODO: PR for spec changes, issue to update validation, Gary PR to update validation
+
+### Adding linking to security vulnerability information in SPDX 2.3
+* Rose: Last week we discussed option 1 and 2, for option 2 does it cover all the needs such a CSAF
+* Dick: What would an option 1 look like in SBOM?
+* Rose: Anything in option 1 is like option 2 but without 1 category `url`
+* Thomas: referenceType with option 2 would just be a keyword
+* Karsten: we should try to generate a better SBOM that better identifies the components for identifying vulnerabilities without any links to CVEs given that there are other standards out there. We should enrich the BOM so we can better identify vulns instead of including them. Suggests to not include any advisories or CVE links because this information is dynamic. SBOM should have info that another tool can identify CVES from the document.
+* Dick: Karsten is actually suggesting an option 3... adding to the component identification for vuln identification. i.e. using a package url to identify component that has a vulnerability?
+* Karsten shows his screen with example of what he wants to include in the SBOM -- Derived CPE URIs. We need to emphasize information that can be used to track down vulns
+Thomas: CPEs are not usable, highly computational
+* Karsten's main concern is dynamic information being included in static document.
+* Thomas: as a supplier, we don't know the CPEs because the publisher of the package does not provide it. There's a mismatch -- this is why package URLs can be useful (they are computational). 
+* Dick: add third option that Karsten is describing into the list.
+* Thomas: To recap Karsten proposal add a 3rd option that makes external package identifier CPE or purl mandatory when sharing security information.
+* Thomas/Rose: If using option 3, what if you have a vulnerability but doesn't have a CVE number?
+* Dick: component and vulnerability that affect a particular SBOM can be in the URL
+* Karstens main concern is wanting to separate static and dynamic.
+* Dick: It about giving vendor flexiablity to communicate vulnerabilities from SPDX whether CycloneDX, CSAF, etc.
+* Thomas: Add a 3rd option to SPDX 2.3 documentation
