@@ -1,0 +1,71 @@
+## SPDX Defects Team meeting - 02.16.2022
+
+## Attendees
+* Anthony Harrison
+* Christian Long
+* Dick Brooks
+* Helio
+* Thomas Steenbergen
+* Bob Martin
+* Kate Stewart
+* Karsten Klein
+* Michael White
+* VMBrasseur
+* Henk Birkholz
+* Rose Judge
+* William Cox
+* Philippe-Emmanuel Douziech
+
+## Agenda
+
+General
+* Introductions
+* Call for volunteer(s) - backup meeting organizer
+* Discuss ways of working - use Google, GitHub for drafting profile docs?
+* Adding linking to security vulnerability information in SPDX 2.3 
+* [vmb] Need a representative to speak with/present to OpenSSF Vulnerability Disclosure WG
+
+## Notes
+
+### Introductions
+* Who is who and what your motivation to join this call
+* The time of this meeting was decided via this Doodle (https://doodle.com/poll/9752zbs29fn6ch77) which was shared via the spdx-defects and spdx-tech mailing list
+
+### Call for back-up meeting organizer
+* Thomas: Would like a 2nd person to be my back up in case I am sick/on holiday. Any volunteers?
+* Rose Judge will be back-up
+
+### Discuss ways of working - use Google Docs, GitHub for drafting profile docs?
+* Thomas: To help people new to the subject of security information in SBOM I created this reference materials document  - https://docs.google.com/document/d/1R0gV58ZHcxZgBKsG5y6xP8hfME6jbcGgrbPm437QNIQ/edit?usp=sharing
+* Thomas: If you have additional material that you consider useful to this group please comment on above linked document.
+* Thomas: Started drafting a charter to outline our goal, guiding principles and ways of working based on prior work in NTIA/OMG Defects group, see https://docs.google.com/document/d/189VtcPVCVZGl5j1NZL4HTO54iQAWtVwn6wcDHkDiHFQ/edit?usp=sharing
+* Thomas: Use Google docs or GitHub
+* VMB: Can we use GitHub repository
+* Thomas: We could add our work https://github.com/spdx/spdx-3-model or https://github.com/spdx/spdx-spec
+* Henk:  Prefer to use GitHub but need to agree on workflow, using PR would make sense as the document
+* 
+* Henk: Support assembling a list of well-known idenfiers
+* Thomas: Switch everything to GitHub
+* Kate: Would move to GitHub after we work through some drafts.
+* Bob: Whilst in draft phase use Google docs, later move GitHub 
+
+### Adding linking to security vulnerability information in SPDX 2.3 
+* Thomas: prepared a Google docs with a proposal, see https://docs.google.com/document/d/1A9lOwYrpVlmxBl_cEahZTMeo0gU6yDxkgSbx4I5K5v4/edit?usp=sharing
+* Anthony: Do we want to include vulnerabilities in the SBOM
+* Bob: What did you know about the vulnerabilities know at a point in time. We don't just wan to have this mechism in 3.0
+* Henk: SBOM and vulnerabilities have different lifecycles. Has a vulnerability been fixed? For the first SBOM having a list of vulnerabilities is useful. However when your software in maintaince embedding may not be useful as different teams in an organization make be working in SBOM (devs vs. security)
+* Dick: What is the vulnerability status: Does a component have vulnerabilities? If yes, are they exploitable? Having a seperated linked artifact would be useful.
+* Thomas:  Looking at how doing a vulnerability response?   Either external reference or annotation?   Should we extend Annotation to add a comment about an SBOM.
+* Dick: External reference would work but we probably need a better name
+* Henk: Do we only call them vulnerabilities or also weaknesses?
+* ?? : Should defects in licensing be covered?
+* Dick: Needs to processed
+* Anthony: Not sure we want to duplicate what is NVD?
+* ??: Fundamental question of lifecycle?   Reissue whole SBOM if info changes.
+* Thomas: If change, then reissue.
+* If CI pipeline - yes reissue;  but there are other things out in the field. 
+* Like to have pointer to other effects.   Reduces the one blob problem.
+* Pointing from CSAF into SPDX document, how can we do this. 
+* Anthony: The VEX should link to the SBOM. The VEX should then be analysed to see if the vulnerability applies to each deployment of the SBOM as not all deployments will be the same 
+* Bob: We should fill tactical gap, and point the direction for 3.0.
+* Thomas:  Should we extend OSV's types, simplify, ...?
