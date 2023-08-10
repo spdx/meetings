@@ -1,0 +1,64 @@
+## SPDX Defects Team meeting 07.13.2022
+
+## Attendees
+* Thomas Steenbergen
+* Karsten Klein
+* Bob Martin
+* Dick Brooks
+* William Cox
+* Jeff Schutt
+* Henk Birkholz
+
+## Agenda
+* Approval of [meeting minutes](https://github.com/spdx/meetings/pull/200) from last week
+* Continue discussion on SPDX 3.0 Defects example
+* From 2 weeks ago: Example dashboards and reports to support vulnerability assessment, monitoring and reporting use cases
+
+## Notes
+
+### Approval of meeting minutes
+* https://github.com/spdx/meetings/pull/200 is approved & merged
+
+### Continue discussion on SPDX 3.0 Defects example
+* Example: https://gist.github.com/tsteenbe/ea3c9ccf98a0130c5507ecf2e82b9398
+*  Rose raised question about externalReferenceCategory missing in 3.0 model to core group over the mailinglist <insert link>
+
+Defects "relationships"
+* ADVISORY_FOR, 
+* SOURCE_OF
+* KNOWN_NOT_AFFECTED + other VEX
+* PATCHED_BY
+* FIX_PROVIDED_BY
+
+1. Reporter / researcher (actor) that discovered a security issue -> found zero day in Python package.  
+          ????  actor to defect element(s)
+2. Vendor/developer (actor) that creates a security vulnerability advisory -> PYSEC creates an advisory. 
+ADVISORY_FOR, defect element to software element(s) 
+3. Coordinator/vendor (actor) that distributing the security vulnerability advisory -> GitHub distributes it via their vulnerabilities API.  
+ADVISORY_FOR, defect element to software element(s) 
+4. Vendor/developer (actor) that fixes the security issue -> fixes zero day in Python package 
+5. Vendor/developer/user (actor) receives security advisory and makes a risk decision  -> updated to a newer version of Python packages that includes fix for zero day
+
+Option 1:
+element => artifact => defect => property: defectPurpose: [ defectPurpose ]
+                                                  => property: identifiedBy (use for scenario 1. to point to reporter / researcher)
+                                                  => property: createdBy (use for scenario 3. vendor/developer)
+                                                  => property: orginator (use for scenario 2. vendor/developer)
+
+Option 2:
+For software:
+element [property: profile: defects] => artifact => advisory [property: advisoryPurpose] 
+
+For hardware:
+element [property: profile: defects] => artifact => advisory [property: advisoryPurpose] 
+
+advisoryPurpose => own enum with values: 
+    - vulnerability: security info
+    - bug: undesired behavior of software
+    - privacy: exposing PII data
+    - support: e.g. end-of-life
+    - safety: e.g. HBOM physical safety
+    
+    
+* discussion about if defect should hang off of artifact or if Option 1 is symantically confusing
+* discussion about if defect could be a replacement for "bug" in the enum of Option 2 
