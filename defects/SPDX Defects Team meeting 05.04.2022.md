@@ -1,0 +1,66 @@
+## SPDX Defects Team meeting 05.04.2022
+
+## Attendees
+* Thomas Steenbergen
+* Rose Judge
+* VM Brasseur
+* William Cox
+* Karsten Klein
+* Bob Martin
+* Jeff Schutt
+
+## Agenda
+* Approval of [meeting minutes from last week](https://github.com/spdx/meetings/pull/150)
+* Update on new HowTo Annex with security info scenarios
+* Kick off work on Defects Profile in 3.0 Spec?
+
+## Notes
+### Approval of meeting minutes from last week
+* https://github.com/spdx/meetings/pull/150 - Approved/merged?
+* Dick's comments on last week's meeting:
+    *  The original request that initiated [disclosure document] security changes for V 2.3 was to help a consumer answer this question: "What is the vulnerability status NOW for product P, Version V, from Supplier S, at the SBOM component level?" to satisfy EO 14028 vulnerability reporting requirements. This enables a consumer to view the current status of a software product before procuring and before installing any software. I describe the process in this article: https://energycentral.com/c/um/bod-and-c-level-series-software-vulnerability-reporting-and-risk-management
+    * Do we want to include [VDR example](https://github.com/rjb4standards/REA-Products/blob/128d90835317bb9895979441ea7eb065dccd162e/SBOM_VDR.json)?
+      *  Dick: This SBOM_VDR.json example answers the question that consumers are asking, per the original request for updates to V 2.3 submitted to this group.
+* We don't need to make the decision about whether to add his example now. If he wants to include, Dick can comment on the [annex PR](https://github.com/spdx/spdx-spec/pull/670). TODO: Rose will tag him in his comment on the PR and direct him to the annex PR.
+
+### Update on new HowTo Annex with security scenarios
+* Thomas created draft PR for the new annex that we have discussed: https://github.com/spdx/spdx-spec/pull/670
+* Still need to decide on a name for this annex
+* This PR included Jeff's references for GitBOM and CSAF scenarios
+* To see a rendered version of the https://github.com/spdx/spdx-spec/blob/b738c3c4bcf9cd43b8f8459784619d814fefa9ee/chapters/how-to-use.md
+
+### Add Security Info PR
+* https://github.com/spdx/spdx-spec/pull/658
+* No comments from the general tech group but Thomas did send an email out to the tech team
+* Merging of this PR is waiting for approval from Kate
+* 2.3 release is targeted for May 27th (according to milestone on GitHub)
+
+### Kick off work on Defects Profile in 3.0 Spec
+* Google doc: https://docs.google.com/document/d/1ZT_w3HiW6LJjouRlw3xHXPnmy7ArwOdlw4vpzIjS9_o/edit
+* Dick: do we have the 3T SBOM proposal?
+* Jeff: we should also use the 2.2 google doc as we have a lot of ideas in there as well
+* Jeff: with a profile, you can make more explicit requirements of the model (i.e. certain classes). 
+* Bob: you can also add additional data elements that can be not in the core profile.
+* Jeff: we can look at the model and decide what parts of the exisitng model are required for us OR we can start talking about the requirements we have in terms of security information we want to link to.
+* Jeff: Do we start with high level requirements? or aligning to the model?
+* Thomas: Old NTIA spec https://docs.google.com/document/d/1rOAZeVeZWxnA0YKCzTZSgNdA1liXJQx3nvMi05uxYlw/edit
+* Defects scenarios: https://docs.google.com/document/d/16XOyEOHJBQ-7RA3vFrJzNTsMJSeZBIvNo1Z3pNWk16U/edit
+* Jeff: Recent CISA Vex publication https://www.cisa.gov/sites/default/files/publications/VEX_Use_Cases_Document_508c.pdf
+* Jeff: let's go back and do some research on the links being shared and prep for next week's conversation.
+* Thomas: some of the guiding principles are documented
+* Bob: the concepts are the first level of use, then can we use [CISA] spec as a spec?
+* Thomas: thoughts on our first charter statement? https://docs.google.com/document/d/189VtcPVCVZGl5j1NZL4HTO54iQAWtVwn6wcDHkDiHFQ/edit#heading=h.zfxltakh9dr
+  * Jeff: I know what you're aiming for, but this is not straightforward
+  * Rose: where is the charter being published?
+    * Thomas: it will be on the spdx dev website
+  * Want to document our guiding principles. We will have heated discussions that should be resolved by taking a look at the charter. It helps establish clear ground rules/starting point where discussions can step
+  * Bob: this charter says that with regards to SBOMs, we're trying to capture things that the customer or developer thinks they should've been. Trying to figure out what belongs with the SBOM.
+  * Group begins working in the [google doc](https://docs.google.com/document/d/189VtcPVCVZGl5j1NZL4HTO54iQAWtVwn6wcDHkDiHFQ/edit#heading=h.zfxltakh9dr) to refine the charter statement.
+* Rose: should the defects profile be able to represent hardware defects or only software?
+  * Jeff/Bob: Let's limit the inital scope to software at first and as we find need for hardware we can change/refactor as necessary to be neutral to software/hardware domain.
+  * Thomas: should we have a decision log to record these decisions?
+  * Jeff: let's make a scope section to define and explain these decisions (agreement from group)
+  * Karsten: we need a different concept; organize this in different use cases (software, hardware) and summarize this as a way to capture, convey, reference defect information which also would reduce complexity in the introduction.
+  * Jeff: we can highlight the work we've already done in 2.x
+  * VMB: You can find a lot of examples of things like this at https://fossgovernance.org/. What we're doing is also analogous to a lot of things SPDX legal has [already done](https://github.com/spdx/license-list-XML/blob/master/DOCS/license-inclusion-principles.md).
+* Thomas will continue to work on some of the 3.0 drafting
