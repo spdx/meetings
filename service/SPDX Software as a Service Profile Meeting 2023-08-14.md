@@ -10,6 +10,8 @@
 * Nisha Kumar
 * Jeff Schutt
 * Ivana Atanasova
+* Prasad Iyar
+* Rose Judge
 
 ## Minutes
 
