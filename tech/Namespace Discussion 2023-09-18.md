@@ -6,7 +6,6 @@
 * Sean Barnum
 * Bob 
 
-# Minutes
 
 # Notes
 * Sean's PR is solution A - SerializableCollection
