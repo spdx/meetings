@@ -37,7 +37,6 @@
   * https://github.com/spdx/spdx-3-model/issues/439
 
 ## Decisions
-* William to do a draft pull request of the work in progress on documentation
 
 ## Action Items
 * William to complete update on documentation
