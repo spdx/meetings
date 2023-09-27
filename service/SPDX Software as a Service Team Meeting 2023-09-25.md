@@ -2,7 +2,7 @@
 
 ## Attendees
 * Gary O'Neall
-* Nisha
+* Nisha Kumar
 * Jeff Schutt
 * Prasad
 * Ivana
