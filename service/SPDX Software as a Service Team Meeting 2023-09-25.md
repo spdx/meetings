@@ -5,7 +5,7 @@
 * Nisha Kumar
 * Jeff Schutt
 * Prasad Iyar
-* Ivana
+* Ivana Atanasova
 
 ## Agenda
 * New Google Docs folder for use: https://drive.google.com/drive/u/0/folders/1jU7Cgs2VBb88WdAp09CS_rLtDwjKv5JI
