@@ -1,7 +1,13 @@
 # SPDX Serialization Focus Group Meeting 2023-08-10
 
 ## Attendees
-
+* Gary O'Neall
+* Sean Barnum
+* Nisha Kumar
+* David Kemp
+* Jeff Schutt
+* Ivana Atanasova
+* Rose Judge
 ## Agenda
 - Blank nodes
 - Other serialization formats
