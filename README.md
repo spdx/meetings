@@ -71,3 +71,8 @@ identifiers, status, mitigations and remediations.
 * Time and cadence: every 2 weeks on Monday at 13:00
 * Where: https://zoom.us/j/87627432628
 * Description: Regular meeting to discuss how the SPDX specification can better support and track SAAS use cases.
+
+### Hardware Profile group meetings
+* Time and cadence: weekly on Fridays at 11:00, every other week
+* Where: https://zoom.us/j/99157617857
+* Description: Regular meeting to discuss how the SPDX specification can extend to support firmware, FPGAs, Open Hardware Boards, SOCs, IP blocks, Cores in physical and virtual environments.
