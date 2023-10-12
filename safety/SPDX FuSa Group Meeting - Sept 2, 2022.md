@@ -5,10 +5,10 @@ Nicole Pappler
 Kate Stewart
 Artem Mygaiev
 
-# Agenda
+## Agenda
    * Discusussion of 12207 & related standards
 
-# Notes: 
+## Notes: 
     * 12207 is refrencing 15289
          https://www.techstreet.com/ieee/standards/ieee-iso-iec-p15289
          Discussed unifying with 
