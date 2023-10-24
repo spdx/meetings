@@ -33,4 +33,8 @@ Rough Consensus: agree this could work provided it's optional
      * "PhysicalDocument" is  the representation of the physical bytes. There is no need to include "SerializableCollection". 
      * "PhysicalDocument" has type "documentInfo" which has the document header information. The "documentinfo" is in the bytes and is also in the "PhysicalDocument" in logical form.
      * To know the SPDXID of all elements in a PhysicalDocument needs to find all the SPDXIDs of externally referenced (?)
-    
+ * Decision proposed by Gary to retain the external map as currently defined since it was discussed and decided previously
+* David and Jeff will work to revise David's proposal to align with the decision
+  
+## Next meeting
+ * Review and align on revised proposal 
