@@ -5,7 +5,7 @@
 * Maximillian Huber
 * Luigi Pellecchia
 
-# Notes 
+## Notes 
 * Basil update from webinar - some interest from off line discussion, but waiting for code to be public
    * Code should be available by Workshop
 * Max and Luigi to meet to give orientation over OSS Review Toolkit
