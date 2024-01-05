@@ -53,7 +53,7 @@ identifiers, status, mitigations and remediations.
 * Description: Regular meeting for tool creators implementing the SPDX specification to meet and compare notes
 
 ### AI and Data Profiles group meetings
-* Time and cadence: weekly on Wednesdays at 17:00
+* Time and cadence: weekly on Wednesdays at 15:00
 * Where: https://zoom.us/j/92452702075
 * Description: Regular meeting to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
 
