@@ -76,3 +76,8 @@ identifiers, status, mitigations and remediations.
 * Time and cadence: weekly on Fridays at 11:00, every other week
 * Where: https://zoom.us/j/99157617857
 * Description: Regular meeting to discuss how the SPDX specification can extend to support firmware, FPGAs, Open Hardware Boards, SOCs, IP blocks, Cores in physical and virtual environments.
+  
+### Operations group meetings
+* Time and cadence: weekly on Fridays at 09:30
+* Where: https://zoom-lfx.platform.linuxfoundation.org/meeting/94606881295?password=3522f337-3890-4940-9d74-9aee22864967
+* Descriptions: Regular meeting focused on the additional information that an organization may wish to associate with a package, for effective management of these artifacts within business operations.
