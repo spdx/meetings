@@ -58,7 +58,7 @@ identifiers, status, mitigations and remediations.
 * Description: Regular meeting to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
 
 ### Functional Safety Profile group meetings
-* Time and cadence: weekly on Fridays at 9:00
+* Time and cadence: weekly on Fridays at 12:00
 * Where:  https://zoom.us/j/94445183726
 * Description: Regular meeting to discuss how the SPDX specification can better support and track functional safety plans.
 
