@@ -72,7 +72,8 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-fusa-minutes
 
 ### Serialisation Focus Group meetings
-* Time and cadence: weekly on Thursdays at 11:00
+* The serialization team is currently paused - we will anounce specific topic meetings as serialization issues are raised in the Tuesday tech calls
+* Previous time and cadence: weekly on Thursdays at 11:00
 * Where: https://meet.jit.si/SPDXSerialisationMeeting
 * Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
 
