@@ -54,7 +54,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-defects-minutes
 
 ### Implementers group meetings
-* Time and cadence: every 2 weeks on Wednesday at 11:00
+* Time and cadence: every week on Wednesday at 11:00
 * Where: https://meet.jit.si/SPDXImplementersMeeting
 * Description: Regular meeting for tool creators implementing the SPDX specification to meet and compare notes
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-implementers-minutes
