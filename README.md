@@ -27,7 +27,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-legal-minutes
 
 ## Outreach Team meetings
-* Time and cadence: weekly on Mondays at 11:00
+* Time and cadence: weekly on Mondays at 10:00
 * Where: <https://meet.jit.si/SPDXOutreachMeeting>
 * Descriptions: Regular meeting to coordinate public relations efforts and discuss current projects.
 * Meeting minutes and agendas: https://hackmd.io/@spdx/outreach-team/edit 
