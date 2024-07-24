@@ -60,7 +60,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-implementers-minutes
 
 ### AI and Data Profiles group meetings
-* Time and cadence: weekly on Wednesdays at 17:00
+* Time and cadence: weekly on Wednesdays at 15:00
 * Where: https://zoom.us/j/92452702075
 * Description: Regular meeting to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-ai-minutes
