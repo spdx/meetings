@@ -59,7 +59,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Description: Regular meeting for tool creators implementing the SPDX specification to meet and compare notes
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-implementers-minutes
 
-### AI and Data Profiles group meetings
+### AI and Dataset Profiles group meetings
 * Time and cadence: weekly on Wednesdays at 15:00
 * Where: https://zoom.us/j/92452702075
 * Description: Regular meeting to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
@@ -67,7 +67,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 
 ### Functional Safety Profile group meetings
 * Time and cadence: weekly on Fridays at 12:00
-* Where:  https://zoom.us/j/94445183726
+* Where: https://zoom.us/j/94445183726
 * Description: Regular meeting to discuss how the SPDX specification can better support and track functional safety plans.
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-fusa-minutes
 
