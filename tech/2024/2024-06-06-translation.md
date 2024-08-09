@@ -14,7 +14,7 @@
 ## Notes
 
 - Following discussions in 2024-05-28 Tech team meeting and emails
-  - https://github.com/spdx/meetings/blob/main/tech/2024-05-28.md
+  - https://github.com/spdx/meetings/blob/main/tech/2024/2024-05-28.md
   - https://github.com/spdx/meetings/blob/main/tech/2024/2024-05-28-i18n-examples.md
 
 ### Spec repo
