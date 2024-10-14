@@ -92,4 +92,4 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Time and cadence: weekly on Fridays at 09:30
 * Where: https://zoom-lfx.platform.linuxfoundation.org/meeting/94606881295?password=3522f337-3890-4940-9d74-9aee22864967
 * Descriptions: Regular meeting focused on the additional information that an organization may wish to associate with a package, for effective management of these artifacts within business operations.
-* Meeting minutes and agendas: https://hackmd.io/BGW2bdMfQrygbbOrLy5ywQ
+* Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-operations-minutes
