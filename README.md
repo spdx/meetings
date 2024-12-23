@@ -78,8 +78,8 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
 
 ### Software as a Service Profile group meetings
-* Time and cadence: every 2 weeks on Monday at 13:00
-* Where: https://zoom.us/j/87627432628
+* Time and cadence: We are currently working asynchronously until we have a pull request ready for review on the final use cases.
+* Where: Once we restart the meetings, they will be at https://zoom.us/j/87627432628
 * Description: Regular meeting to discuss how the SPDX specification can better support and track SAAS use cases.
 
 ### Hardware Profile group meetings
