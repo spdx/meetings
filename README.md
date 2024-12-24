@@ -39,7 +39,7 @@ UTC−05:00 standard and UTC−04:00 daylight, using a 24-hour clock format.
 
 | Time & Cadence | Where | Description | Agendas & Minutes |
 |----------------|-------|-------------|-------------------|
-| Twice per month.<br />2nd & 4th Thursday 12:00 | [Meeting](https://meet.jit.si/SPDXLegalMeeting) | Regular meeting to discuss submissions to SPDX License List, other license list related work, license-related aspects of the SPDX specification, and other related projects. | [Agenda](https://spdx.swinslow.net/p/spdx-legal-minutes) / [Minutes](./legal/) |
+| Twice per month.<br />2nd & 4th Thursdays 12:00 | [Meeting](https://meet.jit.si/SPDXLegalMeeting) | Regular meeting to discuss submissions to SPDX License List, other license list related work, license-related aspects of the SPDX specification, and other related projects. | [Agenda](https://spdx.swinslow.net/p/spdx-legal-minutes) / [Minutes](./legal/) |
 
 ### Outreach Team
 
