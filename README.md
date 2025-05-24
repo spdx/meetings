@@ -32,6 +32,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Descriptions: Regular meeting to coordinate public relations efforts and discuss current projects.
 * Meeting minutes and agendas: https://hackmd.io/@spdx/outreach-team/edit 
 
+
 ## Sub-groups for specific topics
 
 ### AI and Dataset Profiles
@@ -76,10 +77,6 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Description: Regular meeting to discuss representation of software vulnerability metadata in the SPDX specification including vulnerability identifiers, status, mitigations and remediations.
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-defects-minutes
 
-### Software as a Service Profile
-* Time and cadence: Our next meeting will be Monday, Feb. 10 at 13:00
-* Where: https://zoom.us/j/87627432628
-* Description: Regular meeting to discuss how the SPDX specification can better support and track SAAS use cases.
 
 ## Currently inactive groups
 
@@ -101,4 +98,9 @@ The following groups have paused their regular meetings.
 * Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
 <!-- * Previous time and cadence: weekly on Thursdays at 11:00 -->
 <!-- * Where: https://meet.jit.si/SPDXSerialisationMeeting -->
+
+### Software as a Service Profile
+* Description: Regular meeting to discuss how the SPDX specification can better support and track SAAS use cases.
+<!-- * Time and cadence: Our next meeting will be Monday, Feb. 10 at 13:00 -->
+<!-- * Where: https://zoom.us/j/87627432628 -->
 
