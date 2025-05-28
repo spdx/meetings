@@ -27,7 +27,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-legal-minutes
 
 ## Outreach Team meetings
-* Time and cadence: weekly on Mondays at 11:00
+* Time and cadence: weekly on Mondays at 10:00
 * Where: <https://meet.jit.si/SPDXOutreachMeeting>
 * Descriptions: Regular meeting to coordinate public relations efforts and discuss current projects.
 * Meeting minutes and agendas: https://hackmd.io/@spdx/outreach-team/edit 
@@ -54,12 +54,12 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-defects-minutes
 
 ### Implementers group meetings
-* Time and cadence: every 2 weeks on Wednesday at 11:00
+* Time and cadence: every week on Wednesday at 11:00
 * Where: https://meet.jit.si/SPDXImplementersMeeting
 * Description: Regular meeting for tool creators implementing the SPDX specification to meet and compare notes
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-implementers-minutes
 
-### AI and Data Profiles group meetings
+### AI and Dataset Profiles group meetings
 * Time and cadence: weekly on Wednesdays at 15:00
 * Where: https://zoom.us/j/92452702075
 * Description: Regular meeting to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
@@ -67,7 +67,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 
 ### Functional Safety Profile group meetings
 * Time and cadence: weekly on Fridays at 12:00
-* Where:  https://zoom.us/j/94445183726
+* Where: https://zoom.us/j/94445183726
 * Description: Regular meeting to discuss how the SPDX specification can better support and track functional safety plans.
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-fusa-minutes
 
@@ -78,18 +78,25 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
 
 ### Software as a Service Profile group meetings
-* Time and cadence: every 2 weeks on Monday at 13:00
+* Time and cadence: Our next meeting will be Monday, Feb. 10 at 13:00
 * Where: https://zoom.us/j/87627432628
 * Description: Regular meeting to discuss how the SPDX specification can better support and track SAAS use cases.
 
 ### Hardware Profile group meetings
-* Time and cadence: weekly on Fridays at 11:00, every other week
+* Time and cadence: weekly on Fridays at 9:00, every other week
 * Where: https://zoom.us/j/99157617857
 * Description: Regular meeting to discuss how the SPDX specification can extend to support firmware, FPGAs, Open Hardware Boards, SOCs, IP blocks, Cores in physical and virtual environments.
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-hardware-minutes
   
 ### Operations group meetings
-* Time and cadence: weekly on Fridays at 09:30
-* Where: https://zoom-lfx.platform.linuxfoundation.org/meeting/94606881295?password=3522f337-3890-4940-9d74-9aee22864967
+* Time and cadence: weekly on Fridays at 09:30 ET
+* Where:  https://zoom-lfx.platform.linuxfoundation.org/meeting/92368452781?password=8b17d642-11d7-4eac-b0e2-e93c5d662afa 
 * Descriptions: Regular meeting focused on the additional information that an organization may wish to associate with a package, for effective management of these artifacts within business operations.
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-operations-minutes
+
+## Cryptography Team meetings
+* Time and cadence: weekly on Wednesdays at 10:00
+* Where: <https://meet.jit.si/SPDXCryptoMeeting>
+* Descriptions: Regular meeting focused on creating and maintaining an Algorithm List and its uses in SPDX data
+* Meeting minutes and agendas: https://hackmd.io/@spdx/crypto-group
+
