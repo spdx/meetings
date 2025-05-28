@@ -11,20 +11,20 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Time and cadence: once per month on the first Thursday of the month at 11:00
 * Where: <https://meet.jit.si/SPDXGeneralMeeting>
 * Description: General call with general updates, updates from each Team, and sometimes guest speakers (e.g., talks on how people are using SPDX, GSoC student presentations, etc.)
-* Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-general-minutes
+* Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/1O3y70H5iT5eKfv4NQpaItw5zUNetiSsPrqxlV-fQxkw/edit)
 
 ## Tech Team
 * Time and cadence: weekly on Tuesdays at 12:00
 * Where: <https://zoom.us/j/663426859>
 * Descriptions: Regular meeting to work on drafting new versions of the SPDX specification and to discuss technical documentation and official SPDX libraries.
-* Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-tech-minutes
+* Meeting minutes and agendas: [this doc](https://docs.google.com/document/d/1NdHYU_VZtLacD4bEmf2GiUVRTbrcev1beaJpq8s8-pU/edit)
 
 ## Legal Team
 * Time and cadence: twice per month on the second and fourth Thursday of the month at 12:00
 * Where: <https://meet.jit.si/SPDXLegalMeeting>
 * .ics files for invites: [second Thursdays](./invites/spdx-legal-2024-second-thursdays.ics), [fourth Thursdays](./invites/spdx-legal-2024-fourth-thursdays.ics)
 * Descriptions: Regular meeting to discuss submissions to SPDX License List, other license list related work, license-related aspects of the SPDX specification, and other related projects.
-* Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-legal-minutes
+* Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/11iIF_xXsQMOPV8kwBFvg-0nV8EF8VAiaXx3Cv2VLYEE/edit)
 
 ## Outreach Team
 * Time and cadence: weekly on Mondays at 10:00
@@ -39,7 +39,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Time and cadence: weekly on Wednesdays at 15:00
 * Where: https://zoom.us/j/92452702075
 * Description: Regular meeting to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
-* Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-ai-minutes
+* Meeting minutes and agendas: [this doc](https://docs.google.com/document/d/1Q2a2HAV_ipbPhV6pqWWqzxYjBaTKtIW7H_CfAFF0kek/edit)
 
 ### Cryptography
 * Time and cadence: weekly on Wednesdays at 10:00
@@ -57,13 +57,13 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Time and cadence: weekly on Fridays at 12:00
 * Where: https://zoom.us/j/94445183726
 * Description: Regular meeting to discuss how the SPDX specification can better support and track functional safety plans.
-* Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-fusa-minutes
+* Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/18BotF5QsrxT0dY4Ibq-SiADd0nYddMJkvHUU0qi4oxE/edit)
 
 ### Hardware Profile
 * Time and cadence: weekly on Fridays at 9:00, every other week
 * Where: https://zoom.us/j/99157617857
 * Description: Regular meeting to discuss how the SPDX specification can extend to support firmware, FPGAs, Open Hardware Boards, SOCs, IP blocks, Cores in physical and virtual environments.
-* Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-hardware-minutes
+* Meeting minutes and agendas: [this doc](https://docs.google.com/document/d/1EBksIgUU3iYqffDiJDA88cS0x5EzHMZx8LS4ZMyOxzg/edit)
   
 ### Operations
 * Time and cadence: weekly on Fridays at 09:30 ET
@@ -75,7 +75,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Time and cadence: weekly on Wednesdays at 14:00
 * Where: https://meet.jit.si/SPDXDefectsMeeting
 * Description: Regular meeting to discuss representation of software vulnerability metadata in the SPDX specification including vulnerability identifiers, status, mitigations and remediations.
-* Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-defects-minutes
+* Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/1aGVG0-wcCBuiDpPk9SPijPTFk8KCgDIalBh3EDKw25w/edit)
 
 
 ## Currently inactive groups
