@@ -13,7 +13,7 @@ For meeting minutes organization and sorting purpose:
 - Meeting minutes should be titled using the date in the format `YYYY-MM-DD.md`.
 - Meeting minutes should be stored in a directory named for the year `YYYY`.
 - Additional files relevant to a meeting minutes `YYYY-MM-DD.md` should be
-  named as `YYYY-MM-DD-relevant-file-label.md` (e.g., `2024-12-24-diagram.md`),
+  named as `YYYY-MM-DD-relevant-file-label.ext` (e.g., `2024-12-24-diagram.svg`),
   and stored in the same `YYYY` directory.
 
 ## Pull Requests
