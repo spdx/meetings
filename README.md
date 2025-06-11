@@ -6,7 +6,7 @@ This repository stores meeting minutes for the SPDX project.
 The SPDX Project has several Teams and topical groups that meet at regular intervals. Meeting are open to anyone and it is recommended to also join the related mailing list (as applicable), see [SPDX Participate](https://spdx.dev/participate/) for more information. All attendees will be expected to identify themselves by name on all meetings.
 
 Meetings schedules for the SPDX Project are listed below. All times are listed for **US Eastern Time**, 24-hour.
-Meeting times may shift based on US Daylight Saving Time and your local DST observance.
+Meeting times may shift around March and October/November due to US Daylight Saving Time and your local DST observance.
 Check current US Eastern Time at https://time.gov/.
 
 ## General meeting
