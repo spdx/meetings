@@ -1,4 +1,4 @@
-# SPDX Threat Modelling Team Meeting 2025-xx-xx
+# SPDX Threat Modeling and Controls Team Meeting 2025-xx-xx
 
 ## Attendees
 
