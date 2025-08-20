@@ -11,11 +11,11 @@
 
 ## Attendees
 
-[ ] Bob Martin
-[x] Alfred Strauch
-[x] Steven Carbno
-[x] Agustín Benito Bethencourt
-[ ] Quique Goñiz
+* [ ] Bob Martin
+* [x] Alfred Strauch
+* [x] Steven Carbno
+* [x] Agustín Benito Bethencourt
+* [ ] Quique Goñiz
 
 
 ## Agenda
@@ -36,14 +36,14 @@
 * No meeting next week. Next meeting on Sept 3rd
 * Created [a ticket](https://github.com/spdx/crypto-algorithms/issues/19) for external references only WIP
 * Proposal: usage of tags and project on Github to classify the tickets and create a canvas of the backlog vs WIP
-   * Let's start with labels. Ask Alexios `Agreed`
-      * Labels: enhancement, bug, question and documentation 
+   * Let's start with labels. `Agreed`
+      * Labels: enhancement, bug, question and documentation since this labels are already available
 
 ### OSS EU
 
 * Is there an SPDX activity there?
    * Where should we ask. We do not know. Let's ask Bob `ToDo`   
-* Matias Daloia, from SCANOSS, will briefly talk about the list, including a call for participation, during his lightning talk. Agustin created the content for him.
+* Matias Daloia, from SCANOSS, will briefly talk about the list, including a call for participation, during his lightning talk. Agustin created the content for him. Review tomorrow
 
 ### List
 
