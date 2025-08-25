@@ -77,6 +77,11 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Description: Regular meeting to discuss representation of software vulnerability metadata in the SPDX specification including vulnerability identifiers, status, mitigations and remediations.
 * Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/1aGVG0-wcCBuiDpPk9SPijPTFk8KCgDIalBh3EDKw25w/edit)
 
+### Threat Modeling and Controls
+* Time and cadence: weekly on Mondays at 01:00 pm - 02:00 pm EDT
+* Where: https://meet.jit.si/SPDXThreatsAndControls
+* Description: Regular meeting to discuss and plan addition of threat modeling and controls to SPDX. 
+* Meeting minutes and agendas: in 
 
 ## Currently inactive groups
 
