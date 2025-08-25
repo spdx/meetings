@@ -1,4 +1,4 @@
-# Thread Modeling and Controls Meetings Minutes
+# Threats and Controls Meetings Minutes
 
 We use this location to edit and manage meeting minutes as well as resources gathered during the discussions.
 

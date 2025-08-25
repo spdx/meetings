@@ -1,4 +1,4 @@
-# SPDX Threat Modeling and Controls Team Meeting 2025-08-18
+# SPDX Threats and Controls Team Meeting 2025-08-18
 
 ## Attendees
 
@@ -70,4 +70,3 @@ Using specific ontologies
 ## Agenda Item Proposals
 
 * none
-
