@@ -1,8 +1,8 @@
-# Threats and Controls Meetings Minutes
+# SPDX Threats and Controls Meetings Minutes
 
 We use this location to edit and manage meeting minutes as well as resources gathered during the discussions.
 
-For each meeting a dedicated file will be created based on the 
+For each meeting a dedicated minutes file will be created based on the 
 [meeting minutes template](2025-meeting-minutes-template.md).
 
 By convention the meetings are organized by year.
