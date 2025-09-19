@@ -72,7 +72,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-operations-minutes
 
 ### Security Profile
-* Time and cadence: weekly on Wednesdays at 14:00
+* Time and cadence: weekly on Tuesdays at 14:00
 * Where: https://meet.jit.si/SPDXDefectsMeeting
 * Description: Regular meeting to discuss representation of software vulnerability metadata in the SPDX specification including vulnerability identifiers, status, mitigations and remediations.
 * Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/1aGVG0-wcCBuiDpPk9SPijPTFk8KCgDIalBh3EDKw25w/edit)
