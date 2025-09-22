@@ -21,7 +21,6 @@
 
 ## Notes
 
-POSTPONED:
 - CAPECs are linked to CWEs; Vulnerabilities are linked to CWEs; implies...
 - CAPECs further link to Att@ck, (remarkable) WSAC, OWASP
 - Att@ck covers techniques, tactics, mitigations, and many more
