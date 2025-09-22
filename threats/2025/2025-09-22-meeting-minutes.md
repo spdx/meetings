@@ -2,30 +2,20 @@
 
 ## Attendees
 
-- Karsten Klein 
+- Karsten Klein
+- Alfred Strauch
+- Steven Carbno
+- Greg Shue
 
 ## Agenda
 
-- Revise minutes from last meeting
-- Options
+- Revise minutes from last meeting (/)
+- Options (POSTPONED)
   - Collect inputs for outstanding definitions
   - Deep dive into Risk Assessment
     - https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf
     - ISO 31000 / ISO 27005 / ISA 62443-3-2
-
-## Notes
-
-### Section A
-
-- 
-
-## To Do List
-
-- 
-
-## Agenda Item Proposals
-
-- 
+  - 
 
 ## References
 

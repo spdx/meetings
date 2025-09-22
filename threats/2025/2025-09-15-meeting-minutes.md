@@ -22,13 +22,19 @@ Weakness - Vulnerability - Exploit (considering a leveled approach)
 
 ### Most important Definitions
 
+- the definitions are not meant to override any standard definitions.
+- the definitions are generalizing certain aspects in order to deal with these terms on SPDX level and our 
+  common understanding.
+- the definitions are meant to align with existing standard definitions and are discussed in this respect
+- some definitions may be protected by copyright limiting the use of the definitions in SPDX.
+
 #### Threat
 
 *A threat is the potential of a negative circumstance or event.* 
 
 Discussion / Resources:
 - This generic definition is regarded in full alignment with [CNSSI 4009] and [NIST SP 800-30 Rev 1]
-- The CNSSI glossary limits the definition threat by listing affected elements and adverse outcomes. 
+- The CNSSI glossary limits the definition of threat by listing affected elements and adverse outcomes. 
   This is not necessary.
 - CNSSI 4009 - Threat:
   Any circumstance or event with the potential to adversely impact organizational operations (including mission,
@@ -71,12 +77,10 @@ Discussion:
   Note: Risk is often expressed in terms of a combination of the consequences of an event and the associated likelihood of occurrence. The probability of occurrence includes the exposure to a hazardous situation, the occurrence of a hazardous event, and the possibility to avoid or limit the harm. See Also: opportunity
 
 
-Who or what could cause damage or harm? 
-
-
 #### Hazard
 
-A hazard is a potential of a negative circumstance or event causing injury or harm to humans or other living creatures.
+*A hazard is a potential of a negative circumstance or event causing injury, harm or damage to people, property, the 
+environment, or systems. Hazards in contrast to threats are inherent conditions or reflect intrinsic properties.*
 
 Discussion:
 - Safety prioritizes harm or injury to humans or animals; hazards in safety are threats in cybersecurity
@@ -100,6 +104,18 @@ Discussion:
   damage to property, damage to the environment, or a combination of these (IEEE 7000:2021, IEEE Standard Model Process 
   for Addressing Ethical Concerns during System Design, 3.1)
 
+Further information sources (SPDX Hardware Profile)
+
+Summary
+Hazards are potential sources of harm, danger, or adverse effects to people, property, the environment, or 
+systems within or related to a specific piece of hardware.
+
+Description
+Hazards are potential sources of harm, danger, or adverse effects to people, property, the environment, or 
+systems within or related to a specific piece of hardware. For example, a lithium battery is a hazardous 
+hardware item.
+
+
 ## Agenda Item Proposals
 
 - Further deep-dive on risk assessment and risk assessment processes
@@ -110,7 +126,6 @@ https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf
 https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf
 https://doi.org/10.6028/NIST.CSWP.46
 https://nsarchive.gwu.edu/document/22385-document-08-committee-national-security
-https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf
 https://pascal.computer.org/sev_display/index.action
 
 SEVOCAB-related statement: "Copyright©, 2025, IEEE. Used by permission."
@@ -120,3 +135,6 @@ The definitions from CNSSI 4009 are used from NIST SPs.
 
 - Extend definitions by weakness, vulnerability and exploit
 - Extend definitions by asset (compare with CRA-related content)
+- Extend definitions on who or what could cause damage or harm? 
+- Threat Source / Threat Agent / Threat Actor / Threat Scenario; see NIST  
+
