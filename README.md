@@ -60,7 +60,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/18BotF5QsrxT0dY4Ibq-SiADd0nYddMJkvHUU0qi4oxE/edit)
 
 ### Hardware Profile
-* Time and cadence: weekly on Fridays at 9:00, every other week
+* Time and cadence: weekly on Fridays at 9:00
 * Where: https://zoom.us/j/99157617857
 * Description: Regular meeting to discuss how the SPDX specification can extend to support firmware, FPGAs, Open Hardware Boards, SOCs, IP blocks, Cores in physical and virtual environments.
 * Meeting minutes and agendas: [this doc](https://docs.google.com/document/d/1EBksIgUU3iYqffDiJDA88cS0x5EzHMZx8LS4ZMyOxzg/edit)
