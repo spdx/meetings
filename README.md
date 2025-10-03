@@ -60,7 +60,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/18BotF5QsrxT0dY4Ibq-SiADd0nYddMJkvHUU0qi4oxE/edit)
 
 ### Hardware Profile
-* Time and cadence: weekly on Fridays at 9:00, every other week
+* Time and cadence: weekly on Fridays at 9:00
 * Where: https://zoom.us/j/99157617857
 * Description: Regular meeting to discuss how the SPDX specification can extend to support firmware, FPGAs, Open Hardware Boards, SOCs, IP blocks, Cores in physical and virtual environments.
 * Meeting minutes and agendas: [this doc](https://docs.google.com/document/d/1EBksIgUU3iYqffDiJDA88cS0x5EzHMZx8LS4ZMyOxzg/edit)
@@ -72,11 +72,16 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-operations-minutes
 
 ### Security Profile
-* Time and cadence: weekly on Wednesdays at 14:00
+* Time and cadence: weekly on Tuesdays at 14:00
 * Where: https://meet.jit.si/SPDXDefectsMeeting
 * Description: Regular meeting to discuss representation of software vulnerability metadata in the SPDX specification including vulnerability identifiers, status, mitigations and remediations.
 * Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/1aGVG0-wcCBuiDpPk9SPijPTFk8KCgDIalBh3EDKw25w/edit)
 
+### Threats and Controls
+* Time and cadence: weekly on Mondays at 01:00 pm - 02:00 pm EDT
+* Where: https://meet.jit.si/SPDXThreatsAndControls
+* Description: Regular meeting to discuss and plan addition of threats, threat modeling and controls to SPDX. 
+* Meeting minutes and agendas: [threats/README.md](threats/README.md)
 
 ## Currently inactive groups
 
