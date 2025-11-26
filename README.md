@@ -5,7 +5,10 @@ This repository stores meeting minutes for the SPDX project.
 
 The SPDX Project has several Teams and topical groups that meet at regular intervals. Meeting are open to anyone and it is recommended to also join the related mailing list (as applicable), see [SPDX Participate](https://spdx.dev/participate/) for more information. All attendees will be expected to identify themselves by name on all meetings.
 
-Meetings schedules for the SPDX Project are listed below. All times are listed for **US Eastern time zone**, 24-hour.
+Meetings schedules for the SPDX Project are listed below. All times are listed for **US Eastern Time**, 24-hour.
+
+*Meeting times may shift around March and October/November due to US Daylight Saving Time and your local DST observance.
+Check current US Eastern Time at <https://time.gov/>.*
 
 ## General meeting
 * Time and cadence: once per month on the first Thursday of the month at 11:00
@@ -66,7 +69,7 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 * Meeting minutes and agendas: [this doc](https://docs.google.com/document/d/1EBksIgUU3iYqffDiJDA88cS0x5EzHMZx8LS4ZMyOxzg/edit)
   
 ### Operations
-* Time and cadence: weekly on Fridays at 09:30 ET
+* Time and cadence: weekly on Fridays at 10:00 ET
 * Where:  https://zoom-lfx.platform.linuxfoundation.org/meeting/92368452781?password=8b17d642-11d7-4eac-b0e2-e93c5d662afa 
 * Description: Regular meeting focused on the additional information that an organization may wish to associate with a package, for effective management of these artifacts within business operations.
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-operations-minutes
