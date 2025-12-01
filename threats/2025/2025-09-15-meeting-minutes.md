@@ -137,4 +137,3 @@ The definitions from CNSSI 4009 are used from NIST SPs.
 - Extend definitions by asset (compare with CRA-related content)
 - Extend definitions on who or what could cause damage or harm? 
 - Threat Source / Threat Agent / Threat Actor / Threat Scenario; see NIST  
-
