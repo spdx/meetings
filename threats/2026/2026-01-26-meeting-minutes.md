@@ -14,7 +14,7 @@
 
 ## Agenda
 
-- Discussion on Weakness and Vulnerability Defintion in MITRE ontology
+- Discussion on Weakness and Vulnerability Definition in MITRE ontology
 - Modelling of controls (in analogy with threats); see [Control Model](2026-01-26-Control-Model.png)
 - Discussion of relationship from vulnerability to threat; see [Threat Impact Assessment](2026-01-26-Threat-Impact-Assessment.png) 
 
