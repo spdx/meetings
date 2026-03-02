@@ -16,7 +16,7 @@
 
 - Clarification of current modelling in SPDX model (postponed)
 - Risk Discussion (postponed)
-- Model discussion regarding roles, identities, privileges (see [2026-02-09-Terminology-Discussion.png](2026-02-09-Terminology-Discussion.png)) 
+- Model discussion regarding roles, identities, privileges (see ![2026-02-09-Terminology-Discussion.png](2026-02-09-Terminology-Discussion.png)) 
 
 ## Notes
 
