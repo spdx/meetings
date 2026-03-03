@@ -14,11 +14,12 @@ The SPDX Master Calendar aggregates all working group meetings.
 
 ## Web view
 
-https://calendar.google.com/calendar/embed?src=c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0%40group.calendar.google.com&ctz=America%2FNew_York
+[https://calendar.google.com/calendar/embed?src=c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0%40group.calendar.google.com&ctz=America%2FNew_York
+](https://calendar.google.com/calendar/embed?src=c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0%40group.calendar.google.com&ctz=America%2FNew_Yorkhttps://calendar.google.com/calendar/embed?src=c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0%40group.calendar.google.com&ctz=America%2FNew_York)
 
 ## Subscribe (iCal)
 
-https://calendar.google.com/calendar/ical/c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0%40group.calendar.google.com/public/basic.ics
+https://calendar.google.com/calendar/ical/c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0%40group.calendar.google.com/public/basic.icshttps://calendar.google.com/calendar/ical/c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0%40group.calendar.google.com/public/basic.ics 
 
 All official meetings are reflected here.
 
