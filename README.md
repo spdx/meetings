@@ -40,7 +40,7 @@ Check current US Eastern Time at <https://time.gov/>.*
 
 ### AI and Dataset Profiles
 * Time and cadence: weekly on Wednesdays at 15:00
-* Where: https://zoom.us/j/92452702075
+* Where: https://zoom-lfx.platform.linuxfoundation.org/meeting/99289503433?password=4d7d2ad7-5b2f-44fc-9685-e26dcc2f9da5
 * Description: Regular meeting to discuss how the SPDX specification can better support and track artificial intelligence and machine learning use-cases.
 * Meeting minutes and agendas: [this doc](https://docs.google.com/document/d/1Q2a2HAV_ipbPhV6pqWWqzxYjBaTKtIW7H_CfAFF0kek/edit)
 
