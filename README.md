@@ -35,6 +35,10 @@ Check current US Eastern Time at <https://time.gov/>.*
 * Descriptions: Regular meeting to coordinate public relations efforts and discuss current projects.
 * Meeting minutes and agendas: https://hackmd.io/@spdx/outreach-team/edit 
 
+### Serialization
+* Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
+<!-- * Time and cadence: weekly on Thursdays at 11:00 -->
+<!-- * Where: https://meet.jit.si/SPDXSerializationMeeting -->
 
 ## Sub-groups for specific topics
 
@@ -101,11 +105,6 @@ The following groups have paused their regular meetings.
 <!-- * Time and cadence: weekly on Fridays at 09:00 -->
 <!-- * Where: <https://meet.jit.si/SPDXCanonicalMeeting> -->
 <!-- * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-canonicalisation-minutes -->
-
-### Serialisation
-* Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
-<!-- * Previous time and cadence: weekly on Thursdays at 11:00 -->
-<!-- * Where: https://meet.jit.si/SPDXSerialisationMeeting -->
 
 ### Software as a Service Profile
 * Description: Regular meeting to discuss how the SPDX specification can better support and track SAAS use cases.
