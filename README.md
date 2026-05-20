@@ -36,9 +36,9 @@ Check current US Eastern Time at <https://time.gov/>.*
 * Meeting minutes and agendas: https://hackmd.io/@spdx/outreach-team/edit 
 
 ### Serialization
+*Time and cadence: weekly on Thursdays at 11:00
+* Where: https://meet.jit.si/SPDXSerializationMeeting
 * Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
-<!-- * Time and cadence: weekly on Thursdays at 11:00 -->
-<!-- * Where: https://meet.jit.si/SPDXSerializationMeeting -->
 
 ## Sub-groups for specific topics
 
