@@ -80,6 +80,11 @@ Check current US Eastern Time at <https://time.gov/>.*
 * Description: Regular meeting to discuss representation of software vulnerability metadata in the SPDX specification including vulnerability identifiers, status, mitigations and remediations.
 * Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/1aGVG0-wcCBuiDpPk9SPijPTFk8KCgDIalBh3EDKw25w/edit)
 
+### Serialisation
+* Time and cadence: weekly on Thursdays at 12:00
+* Where: https://meet.jit.si/SPDXSerializationMeeting
+* Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
+
 ### Threats and Controls
 * Time and cadence: weekly on Mondays at 01:00 pm - 02:00 pm EDT
 * Where: https://meet.jit.si/SPDXThreatsAndControls
@@ -101,11 +106,6 @@ The following groups have paused their regular meetings.
 <!-- * Time and cadence: weekly on Fridays at 09:00 -->
 <!-- * Where: <https://meet.jit.si/SPDXCanonicalMeeting> -->
 <!-- * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-canonicalisation-minutes -->
-
-### Serialisation
-* Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
-<!-- * Previous time and cadence: weekly on Thursdays at 11:00 -->
-<!-- * Where: https://meet.jit.si/SPDXSerialisationMeeting -->
 
 ### Software as a Service Profile
 * Description: Regular meeting to discuss how the SPDX specification can better support and track SAAS use cases.
