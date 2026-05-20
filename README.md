@@ -35,11 +35,6 @@ Check current US Eastern Time at <https://time.gov/>.*
 * Descriptions: Regular meeting to coordinate public relations efforts and discuss current projects.
 * Meeting minutes and agendas: https://hackmd.io/@spdx/outreach-team/edit 
 
-### Serialization
-*Time and cadence: weekly on Thursdays at 11:00
-* Where: https://meet.jit.si/SPDXSerializationMeeting
-* Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
-
 ## Sub-groups for specific topics
 
 ### AI and Dataset Profiles
@@ -83,6 +78,11 @@ Check current US Eastern Time at <https://time.gov/>.*
 * Where: https://meet.jit.si/SPDXDefectsMeeting
 * Description: Regular meeting to discuss representation of software vulnerability metadata in the SPDX specification including vulnerability identifiers, status, mitigations and remediations.
 * Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/1aGVG0-wcCBuiDpPk9SPijPTFk8KCgDIalBh3EDKw25w/edit)
+
+### Serialization
+*Time and cadence: weekly on Thursdays at 11:00
+* Where: https://meet.jit.si/SPDXSerializationMeeting
+* Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
 
 ### Threats and Controls
 * Time and cadence: weekly on Mondays at 01:00 pm - 02:00 pm EDT
