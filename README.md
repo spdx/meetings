@@ -5,7 +5,8 @@ This repository stores meeting minutes for the SPDX project.
 
 The SPDX Project has several Teams and topical groups that meet at regular intervals. Meetings are open to anyone and it is recommended to also join the related mailing list (as applicable), see [SPDX Participate](https://spdx.dev/participate/) for more information. All attendees will be expected to identify themselves by name on all meetings.
 
-Meetings schedules for the SPDX Project are listed below. All times are listed for **US Eastern Time**, 24-hour.
+Meetings schedules for the SPDX Project are listed below.
+All times are listed in **24-hour US Eastern Time** unless otherwise specified.
 
 *Meeting times may shift around March and October/November due to US Daylight Saving Time and your local DST observance.
 Check current US Eastern Time at <https://time.gov/>.*
@@ -73,19 +74,19 @@ Check current US Eastern Time at <https://time.gov/>.*
 * Description: Regular meeting focused on the additional information that an organization may wish to associate with a package, for effective management of these artifacts within business operations.
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-operations-minutes
 
-### Security Profile
+### Security
 * Time and cadence: weekly on Tuesdays at 14:00
 * Where: https://meet.jit.si/SPDXDefectsMeeting
 * Description: Regular meeting to discuss representation of software vulnerability metadata in the SPDX specification including vulnerability identifiers, status, mitigations and remediations.
 * Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/1aGVG0-wcCBuiDpPk9SPijPTFk8KCgDIalBh3EDKw25w/edit)
 
 ### Serialization
-* Time and cadence: weekly on Thursdays at 11:00
+* Time and cadence: weekly on Thursdays at 16:00 UTC
 * Where: https://meet.jit.si/SPDXSerializationMeeting
 * Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
 
 ### Threats and Controls
-* Time and cadence: weekly on Mondays at 01:00 pm - 02:00 pm EDT
+* Time and cadence: weekly on Mondays at 13:00 - 14:00
 * Where: https://meet.jit.si/SPDXThreatsAndControls
 * Description: Regular meeting to discuss and plan addition of threats, threat modeling and controls to SPDX. 
 * Meeting minutes and agendas: [threats/README.md](threats/README.md)
