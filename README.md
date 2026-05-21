@@ -11,6 +11,8 @@ All times are listed in **24-hour US Eastern Time** unless otherwise specified.
 *Meeting times may shift around March and October/November due to US Daylight Saving Time and your local DST observance.
 Check current US Eastern Time at <https://time.gov/>.*
 
+📅 **[SPDX Master Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0@group.calendar.google.com&ctz=Europe/Dublin)**
+
 ## General meeting
 * Time and cadence: once per month on the first Thursday of the month at 11:00
 * Where: <https://meet.jit.si/SPDXGeneralMeeting>
@@ -74,7 +76,7 @@ Check current US Eastern Time at <https://time.gov/>.*
 * Description: Regular meeting focused on the additional information that an organization may wish to associate with a package, for effective management of these artifacts within business operations.
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-operations-minutes
 
-### Security
+### Security Profile
 * Time and cadence: weekly on Tuesdays at 14:00
 * Where: https://meet.jit.si/SPDXDefectsMeeting
 * Description: Regular meeting to discuss representation of software vulnerability metadata in the SPDX specification including vulnerability identifiers, status, mitigations and remediations.
