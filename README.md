@@ -11,7 +11,7 @@ All times are listed in **24-hour US Eastern Time** unless otherwise specified.
 *Meeting times may shift around March and October/November due to US Daylight Saving Time and your local DST observance.
 Check current US Eastern Time at <https://time.gov/>.*
 
-📅 **[SPDX Master Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0@group.calendar.google.com&ctz=Europe/Dublin)**
+📅 **[SPDX Master Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0@group.calendar.google.com)**
 
 ## General meeting
 * Time and cadence: once per month on the first Thursday of the month at 11:00
