@@ -35,7 +35,6 @@ Check current US Eastern Time at <https://time.gov/>.*
 * Descriptions: Regular meeting to coordinate public relations efforts and discuss current projects.
 * Meeting minutes and agendas: https://hackmd.io/@spdx/outreach-team/edit 
 
-
 ## Sub-groups for specific topics
 
 ### AI and Dataset Profiles
