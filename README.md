@@ -80,7 +80,7 @@ Check current US Eastern Time at <https://time.gov/>.*
 * Meeting minutes and agendas: in [this doc](https://docs.google.com/document/d/1aGVG0-wcCBuiDpPk9SPijPTFk8KCgDIalBh3EDKw25w/edit)
 
 ### Serialization
-* Time and cadence: weekly on Thursdays at 11:00
+* Time and cadence: bi-weekly on Thursdays at 11:00
 * Where: https://meet.jit.si/SPDXSerializationMeeting
 * Description: Regular meeting to discuss the serialisation formats for SPDX, enumerating the use cases for serialisation and determining stakeholder preferences.
 
