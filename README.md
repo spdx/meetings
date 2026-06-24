@@ -10,6 +10,20 @@ Meetings schedules for the SPDX Project are listed below. All times are listed f
 *Meeting times may shift around March and October/November due to US Daylight Saving Time and your local DST observance.
 Check current US Eastern Time at <https://time.gov/>.*
 
+The SPDX Master Calendar aggregates all working group meetings.
+
+## Web view
+
+https://calendar.google.com/calendar/embed?src=c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0%40group.calendar.google.com&ctz=America%2FNew_York
+
+## Subscribe (iCal)
+
+https://calendar.google.com/calendar/ical/c_fe19f6bfb6dd2ffe9874a2b89f8c53dffa7a315de733fb5ce6646808ef2b42d0%40group.calendar.google.com/public/basic.ics
+
+All official meetings are reflected here.
+
+Please subscribe to avoid missing updates.
+
 ## General meeting
 * Time and cadence: once per month on the first Thursday of the month at 11:00
 * Where: <https://meet.jit.si/SPDXGeneralMeeting>
