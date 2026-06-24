@@ -1,0 +1,71 @@
+# SPDX Hardware Team Meeting 2026-04-10
+
+## Attendees
+
+[ X] Alfred Strauch
+[ X] Steven Carbno
+[ ] Bob Martin (MITRE)
+[ ] Dishoung White II
+[ ] Kate Stewart
+[ ] Victor Lu
+[ X] Jim Vitrano
+[ ] Amit Kumar
+[ ] Issac Asay
+[ ] Lucas Tate
+[ ] Apoorav Trehan
+[ ] Alex Volykin
+[ ] Allan Friedman
+[ ] Cassie Crossley
+[ ] Felix Reichmanna
+[ ] Greg Shue
+[ ] Riley Barello-Myers
+[ ] Henk Berkholz
+[ ] Dan Hopkins
+[ ] Courtney Ng
+[X] Andrew Viater
+[ ] Raymond Sheh
+[ ] Stanislav Pankevich
+[ ] Karen Bennet
+[ ] Marcel Kurzamann
+[ ] Raymond Sheh
+[ ] Michael Pease (NIST Standards)
+[ ] Jenn Power (Red Hat)
+[ ] Arthit Suriyawongkul
+
+# Agenda
+
+* Approve previous minutes https://github.com/spdx/meetings/pull/1086
+* Review PRs - PRs for review - Role update - assignedBy https://github.com/spdx/spdx-3-model/pull/1221
+Conformance example1 prelim stakeholders and personas by gregshue · https://github.com/spdx/spdx-examples/pull/128
+
+* Create an example for SPDX repo
+* Basic hardware
+* Basic supply chain
+* Hardware with Role
+* Supply chain with Role
+
+## Notes
+
+* Minutes approved
+* * Reviewed role definition and cleared out all issues
+	* hasrole relationship
+* Outlined how SPDX is a data standard for sharing information between disparate
+* Discussed stakeholder needs with rationality
+* How do you show or illustrate the importance of the role relationship from a system perspective?
+* Need to be part of the conformance example
+* Need to include roles
+* A demonstration related to building a simple hardware example that is then expanded to include supply chain and other elements:
+The SPDX model works and is relevant
+You can easily create a representation of elements
+You can generate the JasonLD immediately
+* Demo must include a visible and easy-to-understand model creation with the ability to generate the SPDX JSON
+* Simple hardware vs digital elements in HW
+* A supply chain link can be added to a piece of hardware to generate more information
+* Included assembly action and an inspection
+* Greg asked if an explanation document could be created automatically. The structure of SPDX has a source (no standard source) and an output folder (Jason). May need an input doc.
+
+## Action Items
+
+* Will send out the created image and the related JASON
+
+## Decision Item
