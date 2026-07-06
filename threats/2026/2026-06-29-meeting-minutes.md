@@ -1,4 +1,4 @@
-# SPDX Threats and Controls Team Meeting 2026-06-22
+# SPDX Threats and Controls Team Meeting 2026-06-29
 
 ## Attendees
 
