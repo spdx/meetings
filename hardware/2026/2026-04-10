@@ -57,7 +57,7 @@ Conformance example1 prelim stakeholders and personas by gregshue · https://git
 * A demonstration related to building a simple hardware example that is then expanded to include supply chain and other elements:
 The SPDX model works and is relevant
 You can easily create a representation of elements
-You can generate the JasonLD immediately
+You can generate the JSON-LD immediately
 * Demo must include a visible and easy-to-understand model creation with the ability to generate the SPDX JSON
 * Simple hardware vs digital elements in HW
 * A supply chain link can be added to a piece of hardware to generate more information
