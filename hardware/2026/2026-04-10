@@ -2,41 +2,16 @@
 
 ## Attendees
 
-[ X] Alfred Strauch
-[ X] Steven Carbno
-[ ] Bob Martin (MITRE)
-[ ] Dishoung White II
-[ ] Kate Stewart
-[ ] Victor Lu
-[ X] Jim Vitrano
-[ ] Amit Kumar
-[ ] Issac Asay
-[ ] Lucas Tate
-[ ] Apoorav Trehan
-[ ] Alex Volykin
-[ ] Allan Friedman
-[ ] Cassie Crossley
-[ ] Felix Reichmanna
-[ ] Greg Shue
-[ ] Riley Barello-Myers
-[ ] Henk Berkholz
-[ ] Dan Hopkins
-[ ] Courtney Ng
+[X] Alfred Strauch
+[X] Steven Carbno
+[X] Jim Vitrano
 [X] Andrew Viater
-[ ] Raymond Sheh
-[ ] Stanislav Pankevich
-[ ] Karen Bennet
-[ ] Marcel Kurzamann
-[ ] Raymond Sheh
-[ ] Michael Pease (NIST Standards)
-[ ] Jenn Power (Red Hat)
-[ ] Arthit Suriyawongkul
 
 # Agenda
 
 * Approve previous minutes https://github.com/spdx/meetings/pull/1086
 * Review PRs - PRs for review - Role update - assignedBy https://github.com/spdx/spdx-3-model/pull/1221
-Conformance example1 prelim stakeholders and personas by gregshue · https://github.com/spdx/spdx-examples/pull/128
+* Conformance example1 prelim stakeholders and personas by gregshue · https://github.com/spdx/spdx-examples/pull/128
 
 * Create an example for SPDX repo
 * Basic hardware
@@ -65,7 +40,6 @@ You can generate the JSON-LD immediately
 * Greg asked if an explanation document could be created automatically. The structure of SPDX has a source (no standard source) and an output folder (JSON). May need an input doc.
 
 ## Action Items
-
 * Will send out the created image and the related JSON
 
 ## Decision Item
