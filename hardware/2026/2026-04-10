@@ -62,7 +62,7 @@ You can generate the JSON-LD immediately
 * Simple hardware vs digital elements in HW
 * A supply chain link can be added to a piece of hardware to generate more information
 * Included assembly action and an inspection
-* Greg asked if an explanation document could be created automatically. The structure of SPDX has a source (no standard source) and an output folder (Jason). May need an input doc.
+* Greg asked if an explanation document could be created automatically. The structure of SPDX has a source (no standard source) and an output folder (JSON). May need an input doc.
 
 ## Action Items
 
