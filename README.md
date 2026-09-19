@@ -50,7 +50,7 @@ Check current US Eastern Time at <https://time.gov/>.*
 * Meeting minutes and agendas: https://hackmd.io/@spdx/crypto-group
 
 ### Implementers
-* Time and cadence: every week on Wednesday at 11:00
+* Time and cadence: every week on Wednesday at 12:00
 * Where: https://meet.jit.si/SPDXImplementersMeeting
 * Description: Regular meeting for tool creators implementing the SPDX specification to meet and compare notes
 * Meeting minutes and agendas: https://spdx.swinslow.net/p/spdx-implementers-minutes
